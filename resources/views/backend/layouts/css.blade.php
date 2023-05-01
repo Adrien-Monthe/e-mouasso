@@ -9,7 +9,7 @@
 
 <!-- Vendor CSS Files -->
 <link href="{{ asset('backend/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-<link href="{{ asset('frontend/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+{{--<link href="{{ asset('frontend/bootstrap/css/bootstrap.css') }}" rel="stylesheet">--}}
 <link href="{{ asset('backend/assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
 <link href="{{ asset('backend/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
 <link href="{{ asset('backend/assets/vendor/quill/quill.snow.css')}}" rel="stylesheet">
@@ -20,6 +20,5 @@
 <!-- Template Main CSS File -->
 <link href="{{ asset('backend/assets/css/style.css') }}" rel="stylesheet">
 
-@notifyCss
 
 @livewireStyles

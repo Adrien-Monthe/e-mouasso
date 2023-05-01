@@ -1,7 +1,7 @@
 <!-- Vendor JS Files -->
 <script src="{{ asset('backend/assets/vendor/apexcharts/apexcharts.min.js')}}"></script>
 <script src="{{ asset('backend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{ asset('frontend/bootstrap/js/bootstrap.js') }}"></script>
+{{--<script src="{{ asset('frontend/bootstrap/js/bootstrap.js') }}"></script>--}}
 <script src="{{ asset('backend/assets/vendor/chart.js/chart.min.js')}}"></script>
 <script src="{{ asset('backend/assets/vendor/echarts/echarts.min.js')}}"></script>
 <script src="{{ asset('backend/assets/vendor/quill/quill.min.js')}}"></script>
@@ -13,4 +13,4 @@
 <script src="{{ asset('backend/assets/js/main.js')}}"></script>
 
 @livewireScripts
-@notifyJs
+
