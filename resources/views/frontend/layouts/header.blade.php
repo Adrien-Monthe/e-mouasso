@@ -40,9 +40,9 @@
                             </div>
                             <div class="main-menu__top-right">
                                 <ul class="list-unstyled main-menu__top-menu">
-                                    <li><a href="about.html">@lang('navigation.nav-about')</a></li>
+                                    <li><a href="{{ route('about') }}">@lang('navigation.nav-about')</a></li>
                                     <li><a href="about.html">Help</a></li>
-                                    <li><a href="contact.html">@lang('navigation.nav-contact')</a></li>
+                                    <li><a href="{{ route('contact') }}">@lang('navigation.nav-contact')</a></li>
                                 </ul>
                                 <div class="main-menu__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -58,24 +58,12 @@
                             <div class="main-menu__main-menu-box">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <ul class="main-menu__list">
-                                    <li class="dropdown">
-                                        <a href="index.html">Home </a>
-                                        <ul>
-                                            <li><a href="index.html">Home One</a></li>
-                                            <li><a href="index2.html">Home Two</a></li>
-                                            <li><a href="index3.html">Home Three</a></li>
-                                            <li class="dropdown">
-                                                <a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header One</a></li>
-                                                    <li><a href="index2.html">Header Two</a></li>
-                                                    <li><a href="index3.html">Header Three</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li class="">
+                                        <a href="{{ route('about') }}">@lang('navigation.nav-home') </a>
+
                                     </li>
-                                    <li class="dropdown">
-                                        <a href="about.html">About</a>
+                                    <li class="">
+                                        <a href="{{ route('about') }}">@lang('navigation.nav-about')</a>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">Pages</a>
@@ -106,15 +94,11 @@
                                             <li><a href="portfolio-details.html">Portfolio Details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown">
-                                        <a href="#">News</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="news.html">News</a></li>
-                                            <li><a href="news-details.html">News Details</a></li>
-                                        </ul>
+                                    <li class="">
+                                        <a href="{{ route('blog') }}">@lang('navigation.nav-blog')</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="{{ route('contact') }}">Contact</a>
                                     </li>
                                 </ul>
                             </div>
