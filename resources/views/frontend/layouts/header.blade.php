@@ -40,9 +40,9 @@
                             </div>
                             <div class="main-menu__top-right">
                                 <ul class="list-unstyled main-menu__top-menu">
-                                    <li><a href="about.html">@lang('navigation.about')</a></li>
+                                    <li><a href="about.html">@lang('navigation.nav-about')</a></li>
                                     <li><a href="about.html">Help</a></li>
-                                    <li><a href="contact.html">@lang('navigation.contact')</a></li>
+                                    <li><a href="contact.html">@lang('navigation.nav-contact')</a></li>
                                 </ul>
                                 <div class="main-menu__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>

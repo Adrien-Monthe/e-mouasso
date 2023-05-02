@@ -18,94 +18,127 @@
 
 @section('content')
 
-    <section class="tf-map">
-        <iframe class="map-content"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7302.453092836291!2d90.47477022812872!3d23.77494577893369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1627293157601!5m2!1svi!2s" allowfullscreen="" loading="lazy"></iframe>
+    <!--Page Header Start-->
+    <section class="page-header">
+        <div class="page-header__bg" style="background-image: url(/frontend/images/backgrounds/page-header-bg.jpg);">
+        </div>
+        <div class="page-header__shape-2 float-bob-x">
+            <img src="/frontend/images/shapes/page-header-shape-2.png" alt="">
+        </div>
+        <div class="page-header__shape-1 float-bob-y">
+            <img src="/frontend/images/shapes/page-header-shape-1.png" alt="">
+        </div>
+        <div class="page-header__shape-3 float-bob-x">
+            <img src="/frontend/images/shapes/page-header-shape-3.png" alt="">
+        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-5 col-md-6">
-                    <div class="wrap-map">
-                        <div class="box-map" >
-                            <h3>Contact 24/7 <span>Head Office</span></h3>
-                            <div class="inner">
-                                <h4>Location</h4>
-                                <p>18/2, Topkhana Road, Macca Surgical</p>
-                                <p>Market, Melbourne, Australia.</p>
-                            </div>
-                            <div class="inner">
-                                <h4>Email</h4>
-                                <a href="email:info@lowlead.com"><p>info.lowlead@gmail.com</p></a>
-                            </div>
-                            <div class="inner">
-                                <h4>Phone</h4>
-                                <a href="tel:0123456789"><p>+66 555 999 222 00</p></a>
-                            </div>
-
-                            <div class="inner">
-                                <h4>Website</h4>
-                                <a href="#"><p>info@lowlead.com</p></a>
-                            </div>
-                            <div class="inner">
-                                <h4>Status</h4>
-                                <p>Completed </p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="page-header__inner">
+                <h2>@lang('navigation.nav-contact')</h2>
+                <div class="thm-breadcrumb__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">@lang('navigation.nav-home')</a></li>
+                        <li><span>/</span></li>
+                        <li>@lang('navigation.nav-contact')</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
+    <!--Page Header End-->
 
-    <section class="tf-section flat-contact-page">
+    <!--Contact Page Start-->
+    <section class="contact-page">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div id="comments">
-                        <div id="respond" class="respond-comment">
-                            <h3 class="title-comment2">Good Contacts</h3>
-                            <p class="text pl-2"> Nunc velit metus, volutpat elementum euismod eget, cursus nec nunc.</p>
-                            <form method="post" id="contactform" class="comment-form form-submit"
-                                  action="https://themesflat.co/html/lowlead/contact/contact-process.php" accept-charset="utf-8"
-                                  novalidate="novalidate">
-                                <div class="text-wrap clearfix">
-                                    <fieldset class="name-wrap style-text">
-                                        <input type="text" id="name" class="tb-my-input" name="name"
-                                               tabindex="1" placeholder="Your Full Name" value="" size="32"
-                                               aria-required="true" required="">
-                                    </fieldset>
-                                    <fieldset class="email-wrap style-text">
-                                        <input type="email" id="email" class="tb-my-input" name="email"
-                                               tabindex="2" placeholder="info.lawlead@gmail.com" value="" size="32"
-                                               aria-required="true" required="">
-                                    </fieldset>
-                                    <fieldset class="phone-wrap style-text">
-                                        <input type="tel" id="phone" class="tb-my-input" name="phone"
-                                               tabindex="1" placeholder="+55 (121) 234 444" value="" size="32"
-                                               aria-required="true" required="">
-                                    </fieldset>
-                                    <fieldset class="site-wrap style-text">
-                                        <input type="text" id="site" class="tb-my-input" name="site"
-                                               tabindex="1" placeholder="Enter Your Address" value="" size="32"
-                                               aria-required="true" required="">
-                                    </fieldset>
+                <div class="col-xl-5 col-lg-6">
+                    <div class="contact-page__left">
+                        <div class="contact-page__form-box">
+                            <form action="https://thegenius.co/html/sinace//frontend/inc/sendemail.php"
+                                  class="contact-page__form contact-form-validated" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="contact-page__input-box">
+                                            <input type="text" placeholder="@lang('contact.name')" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="contact-page__input-box">
+                                            <input type="email" placeholder="@lang('contact.phonenumber')" name="phonenumber">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="contact-page__input-box">
+                                            <input type="email" placeholder="@lang('contact.email')" name="email">
+                                        </div>
+                                    </div>
                                 </div>
-                                <fieldset class="message-wrap">
-                                            <textarea id="comment-message" name="message" rows="3" tabindex="4"
-                                                      placeholder="Additional Message"
-                                                      aria-required="true"></textarea>
-                                </fieldset>
-                                <p class="text-call"> Call us 24/7 at 869-5414-5 or fill out the form below to receive a free and
-                                    confidential initial consultation.</p>
-                                <button name="submit" type="submit" id="comment-reply"
-                                        class="button btn-submit-comment btn-1 btn-10"><span>Submit Request</span></button>
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="contact-page__input-box text-message-box">
+                                            <textarea name="message" placeholder="@lang('contact.message')"></textarea>
+                                        </div>
+                                        <div class="contact-page__btn-box">
+                                            <button type="submit" class="thm-btn contact-page__btn">@lang('contact.send-message')</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
+                            <div class="result"></div>
                         </div>
                     </div>
-
+                </div>
+                <div class="col-xl-7 col-lg-6">
+                    <div class="contact-page__right">
+                        <div class="section-title text-left">
+                            <div class="section-title__tagline-box">
+                                <span class="section-title__tagline">@lang('contact.contact-us')</span>
+                            </div>
+                            <h2 class="section-title__title">@lang('contact.have-questions') @lang('contact.contact-with-us') <span>@lang('contact.anytime')</span></h2>
+                        </div>
+                        <ul class="contact-page__points list-unstyled">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-telephone-1"></span>
+                                </div>
+                                <div class="text">
+                                    <p>@lang('contact.talk-to-expert')</p>
+                                    <h3><a href="tel:00237699374564">+237 699374564</a></h3>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p>@lang('contact.talk-to-expert')</p>
+                                    <h3><a href="mailto:info@e-mouassoandpartners.com">info@e-mouassoandpartners.com</a></h3>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-pin"></span>
+                                </div>
+                                <div class="text">
+                                    <p>@lang('contact.visit-anytime')</p>
+                                    <h3>B.P. 2649, NIKI Akwa, Douala</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--Contact Page End-->
+
+    <!--Google Map Start-->
+    <section class="google-map-two">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+            class="google-map__two" allowfullscreen></iframe>
+
+    </section>
+    <!--Google Map End-->
 
 
 @endsection
