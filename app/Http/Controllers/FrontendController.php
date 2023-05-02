@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -9,6 +10,7 @@ class FrontendController extends Controller
     public function index()
     {
         $data = [];
+        $data['recent_blogs'] = Blog::orderBy('id', 'desc')->limit(3);
         return view('frontend.pages.home', $data);
     }
 
