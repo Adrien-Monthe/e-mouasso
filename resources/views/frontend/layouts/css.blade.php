@@ -23,4 +23,4 @@
 <link rel="stylesheet" href="/frontend/css/sinace.css" />
 <link rel="stylesheet" href="/frontend/css/sinace-responsive.css" />
 
-@vite('resources/css/app.css')
+{{--@vite('resources/css/app.css')--}}
