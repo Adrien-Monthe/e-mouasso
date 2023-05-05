@@ -2,4 +2,6 @@
 
 return [
 
+    'gallery' => 'Gallerie',
+
 ];

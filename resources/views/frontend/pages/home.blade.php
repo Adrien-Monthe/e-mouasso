@@ -45,11 +45,11 @@
                 </div>
                 <div class="container">
                     <div class="main-slider__content">
-                        <p class="main-slider__sub-title">Sustainable Solutions for you</p>
-                        <h2 class="main-slider__title">Consulting <br>
-                            for the business</h2>
+                        <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
+                        <h2 class="main-slider__title">Assitance Administrative <br>
+                            & Juridique</h2>
                         <div class="main-slider__btn-box">
-                            <a href="about.html" class="main-slider__btn thm-btn">Discover More</a>
+                            <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn">@lang('general.read-more')</a>
                         </div>
                     </div>
                 </div>
@@ -77,11 +77,11 @@
                 </div>
                 <div class="container">
                     <div class="main-slider__content">
-                        <p class="main-slider__sub-title">Sustainable Solutions for you</p>
-                        <h2 class="main-slider__title">Consulting <br>
-                            for the business</h2>
+                        <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
+                        <h2 class="main-slider__title">Audit Juridiques<br>
+                             & Social</h2>
                         <div class="main-slider__btn-box">
-                            <a href="about.html" class="main-slider__btn thm-btn">Discover More</a>
+                            <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn"> @lang('general.read-more')</a>
                         </div>
                     </div>
                 </div>
@@ -109,11 +109,11 @@
                 </div>
                 <div class="container">
                     <div class="main-slider__content">
-                        <p class="main-slider__sub-title">Sustainable Solutions for you</p>
-                        <h2 class="main-slider__title">Consulting <br>
-                            for the business</h2>
+                        <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
+                        <h2 class="main-slider__title">Consultation <br>
+                            Juridiques</h2>
                         <div class="main-slider__btn-box">
-                            <a href="about.html" class="main-slider__btn thm-btn">Discover More</a>
+                            <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn"> @lang('general.read-more')</a>
                         </div>
                     </div>
                 </div>
@@ -150,14 +150,11 @@
                     <div class="about-one__right">
                         <div class="section-title text-left">
                             <div class="section-title__tagline-box">
-                                <span class="section-title__tagline">Welcome to agency</span>
+                                <span class="section-title__tagline">@lang('home.welcome-to-cabinet')</span>
                             </div>
-                            <h2 class="section-title__title">Delivering the Best
-                                Consulting <span>Experience</span></h2>
+                            <h2 class="section-title__title">@lang('home.welcome-to-cabinet-title')</h2>
                         </div>
-                        <p class="about-one__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                            sed do eiusmod tempor incididunt ut labore et simply free text dolore magna aliqua lonm
-                            andhn.</p>
+                        <p class="about-one__text text-justify" >@lang('home.nous-sommes')</p>
                         <div class="about-one__points-and-experience">
                             <div class="about-one__points-box">
                                 <ul class="about-one__points-list list-unstyled">
@@ -166,7 +163,7 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Strategy & Consulting</p>
+                                            <p>@lang('home.droit-affaires')</p>
                                         </div>
                                     </li>
                                     <li>
@@ -174,7 +171,15 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Business Process</p>
+                                            <p>@lang('home.droit-maritime')</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>@lang('home.droit-bancaire')</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -184,7 +189,7 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Marketing Rules</p>
+                                            <p>@lang('home.droit-travail')</p>
                                         </div>
                                     </li>
                                     <li>
@@ -192,7 +197,15 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Partnerships</p>
+                                            <p>@lang('home.droit-travail')</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Droit Foncier </p>
                                         </div>
                                     </li>
                                 </ul>
@@ -210,7 +223,7 @@
                             <div class="about-one__shape-3 float-bob-x">
                                 <img src="/frontend/images/shapes/about-one-shape-3.png" alt="">
                             </div>
-                            <a href="about.html" class="about-one__btn thm-btn">Discover More</a>
+                            <a href=" {{ route ('about') }}" class="about-one__btn thm-btn"> @lang('general.read-more')</a>
                         </div>
                     </div>
                 </div>
@@ -444,7 +457,7 @@
                 <h3 class="video-one__title">Sinace Envision & Transofrm
                     <br> Your Business</h3>
                 <div class="video-one__btn-box">
-                    <a href="about.html" class="video-one__btn thm-btn">Discover More</a>
+                    <a href=" {{ route ('about') }}" class="video-one__btn thm-btn"> @lang('general.read-more')</a>
                 </div>
             </div>
         </div>
@@ -961,7 +974,7 @@
                     <p class="counter-one__bottom-text">Need best business consultation solutions & services? <a
                             href="#">Send a Request</a></p>
                     <div class="counter-one__call-box">
-                        <p>Call Free <a href="tel:9200009850">+92 (0000)-9850</a></p>
+                        <p>@lang('general.call') <a href="tel:00237699374564">+237 699374564</a></p>
                         <div class="counter-one__call-icon">
                             <span class="icon-telephone-1"></span>
                         </div>
@@ -973,64 +986,7 @@
     <!--Counter One End-->
 
     <!--Brand One Start-->
-    <section class="brand-one">
-        <div class="brand-one__title"></div>
-        <div class="container">
-            <div class="brand-one__carousel thm-owl__carousel owl-theme owl-carousel" data-owl-options='{
-                    "items": 3,
-                    "margin": 30,
-                    "smartSpeed": 700,
-                    "loop":true,
-                    "autoplay": 6000,
-                    "nav":true,
-                    "dots":false,
-                    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                    "responsive":{
-                        "0":{
-                            "items":1
-                        },
-                        "768":{
-                            "items":3
-                        },
-                        "992":{
-                            "items": 5
-                        }
-                    }
-                }'>
-                <!--Brand One Single-->
-                <div class="brand-one__single">
-                    <div class="brand-one__img">
-                        <img src="/frontend/images/brand/brand-1-1.png" alt="">
-                    </div>
-                </div>
-                <!--Brand One Single-->
-                <div class="brand-one__single">
-                    <div class="brand-one__img">
-                        <img src="/frontend/images/brand/brand-1-2.png" alt="">
-                    </div>
-                </div>
-                <!--Brand One Single-->
-                <div class="brand-one__single">
-                    <div class="brand-one__img">
-                        <img src="/frontend/images/brand/brand-1-3.png" alt="">
-                    </div>
-                </div>
-                <!--Brand One Single-->
-                <div class="brand-one__single">
-                    <div class="brand-one__img">
-                        <img src="/frontend/images/brand/brand-1-4.png" alt="">
-                    </div>
-                </div>
-                <!--Brand One Single-->
-                <div class="brand-one__single">
-                    <div class="brand-one__img">
-                        <img src="/frontend/images/brand/brand-1-5.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- If we need navigation buttons -->
-        </div>
-    </section>
+    @include('frontend.layouts.brands-carousel')
     <!--Brand One End-->
 
     <!--Contact One Start-->

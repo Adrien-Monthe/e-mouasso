@@ -24,5 +24,6 @@ return [
     'recent-products' => 'Produits Recent',
     'entries-per-page' => 'Lignes par Page',
     'all' => 'Tous',
+    'call' => 'Appellez',
 
 ];

@@ -1,3 +1,4 @@
+@php use Carbon\Carbon; @endphp
 <!--News One Start-->
 <section class="news-one">
     <div class="container">

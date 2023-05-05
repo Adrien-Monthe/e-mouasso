@@ -58,7 +58,7 @@
                                     <span class="fas fa-envelope"></span>
                                 </div>
                                 <div class="text">
-                                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                    <a href="mailto:needhelp@company.com">info@e-mouassoandpartners.com</a>
                                 </div>
                             </li>
                             <li>
@@ -66,7 +66,7 @@
                                     <span class="fas fa-phone-square"></span>
                                 </div>
                                 <div class="text">
-                                    <a href="tel:+926668880000">+92 (666) 888 0000</a>
+                                    <a href="tel:+237699374564">+237 699-374-564</a>
                                 </div>
                             </li>
                         </ul>
@@ -75,7 +75,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="500ms">
                     <div class="footer-widget__column footer-widget__portfolio">
                         <div class="footer-widget__title-box">
-                            <h3 class="footer-widget__title">Gallery</h3>
+                            <h3 class="footer-widget__title">@lang('footer.gallery')</h3>
                         </div>
                         <ul class="footer-widget__portfolio-list list-unstyled clearfix">
                             <li>
@@ -125,7 +125,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="site-footer__bottom-inner">
-                        <p class="site-footer__bottom-text">© Copyright 2023 by <a href="#">Company.com</a></p>
+                        <p class="site-footer__bottom-text">© Copyright 2023 Designed By <a href="https://genzis.net/">Genzis</a></p>
                     </div>
                 </div>
             </div>

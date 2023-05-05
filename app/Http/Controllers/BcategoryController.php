@@ -66,7 +66,7 @@ class BcategoryController extends Controller
             $category->save();
         }
 
-        notify()->success('Catégorie créé avec succès');
+        //notify()->success('Catégorie créé avec succès');
 
         return redirect()->route('bcategories.index', app()->getLocale())->with('success', 'Category has been added successfully');
     }
@@ -131,7 +131,7 @@ class BcategoryController extends Controller
             $category->save();
         }
 
-        notify()->success('Catégorie modifié avec succès');
+        //notify()->success('Catégorie modifié avec succès');
 
         return redirect()->route('bcategories.index', app()->getLocale())->with('success', 'Category has been Updated successfully');
     }

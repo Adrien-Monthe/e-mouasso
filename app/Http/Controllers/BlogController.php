@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreBlogRequest;
 use App\Http\Requests\UpdateBlogRequest;
+use App\Models\Bcategory;
 use App\Models\Bcatergory;
 use App\Models\Blog;
 use App\Models\Btag;
@@ -30,7 +31,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        $data['categories'] = Bcatergory::orderBy('id','desc')->get();
+        $data['categories'] = Bcategory::orderBy('id','desc')->get();
         $data['tags'] = Btag::orderBy('id','desc')->get();
         return view('backend.pages.posts.create-post',$data);
     }
@@ -119,9 +120,9 @@ class BlogController extends Controller
      * @param Blog $blog
      * @return Response
      */
-    public function show($lang, Blog $blog)
+    public function show( Blog $blog)
     {
-        $data['categories'] = Bcatergory::orderBy('id','desc')->get();
+        $data['categories'] = Bcategory::orderBy('id','desc')->get();
         $data['tags'] = Btag::orderBy('id','desc')->get();
         $data['blog'] = $blog;
         return view('backend.pages.posts.show-post',$data);
@@ -133,9 +134,9 @@ class BlogController extends Controller
      * @param Blog $blog
      * @return Response
      */
-    public function edit($lang, Blog $blog)
+    public function edit( Blog $blog)
     {
-        $data['categories'] = Bcatergory::orderBy('id','desc')->get();
+        $data['categories'] = Bcategory::orderBy('id','desc')->get();
         $data['tags'] = Btag::orderBy('id','desc')->get();
         $data['blog'] = $blog;
         return view('backend.pages.posts.edit-post',$data);
@@ -148,7 +149,7 @@ class BlogController extends Controller
      * @param Blog $blog
      * @return Response
      */
-    public function update(UpdateBlogRequest $request, $lang, Blog $blog)
+    public function update(UpdateBlogRequest $request, Blog $blog)
     {
         $blog_id = $blog->id;
 

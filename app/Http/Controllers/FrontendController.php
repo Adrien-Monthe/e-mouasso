@@ -10,7 +10,7 @@ class FrontendController extends Controller
     public function index()
     {
         $data = [];
-        $data['recent_blogs'] = Blog::orderBy('id', 'desc')->limit(3);
+        $data['recent_blogs'] = Blog::orderBy('id', 'desc')->limit(3)->get();
         return view('frontend.pages.home', $data);
     }
 
@@ -30,5 +30,12 @@ class FrontendController extends Controller
     {
         $data = [];
         return view('frontend.pages.faq', $data);
+    }
+
+    public function blog()
+    {
+        $data = [];
+        $data['blogs'] = Blog::orderBy('id', 'desc')->paginate(6);
+        return view('frontend.pages.blog.blogs', $data);
     }
 }
