@@ -16,6 +16,8 @@
 
 @section('page-title', __('about.page-title'))
 
+@section('content')
+
 <!--Page Header Start-->
 <section class="page-header">
     <div class="page-header__bg" style="background-image: url(/frontend/images/backgrounds/page-header-bg.jpg);">
@@ -523,7 +525,6 @@
 </section>
 <!--Brand One End-->
 
-@section('content')
 
 
 
