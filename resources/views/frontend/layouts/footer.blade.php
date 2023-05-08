@@ -30,23 +30,23 @@
                             <h3 class="footer-widget__title">Explore</h3>
                         </div>
                         <ul class="footer-widget__link-list list-unstyled">
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="{{ route('services') }}">@lang('navigation.nav-services')</a></li>
+                            <li><a href="{{ route('about') }}">@lang('navigation.nav-about')</a></li>
                             <li><a href="portfolio.html">Latest Projects</a></li>
                             <li><a href="team.html">Our Team</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{{ route('contact') }}">@lang('navigation.nav-contact')</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="footer-widget__column footer-widget__newsletter">
                         <div class="footer-widget__title-box">
-                            <h3 class="footer-widget__title">Newsletter</h3>
+                            <h3 class="footer-widget__title">@lang('footer.newsletter')</h3>
                         </div>
                         <form class="footer-widget__newsletter-form mc-form" data-url="MC_FORM_URL"
                               novalidate="novalidate">
                             <div class="footer-widget__newsletter-form-input-box">
-                                <input type="email" placeholder="Your email" name="EMAIL">
+                                <input type="email" placeholder="@lang('contact.email')" name="EMAIL">
                                 <button type="submit" class="footer-widget__newsletter-btn"><span
                                         class="fas fa-paper-plane"></span></button>
                             </div>

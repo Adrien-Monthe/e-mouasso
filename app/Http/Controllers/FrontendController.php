@@ -38,4 +38,47 @@ class FrontendController extends Controller
         $data['blogs'] = Blog::orderBy('id', 'desc')->paginate(6);
         return view('frontend.pages.blog.blogs', $data);
     }
+
+    public function services()
+    {
+        $data = [];
+        return view('frontend.pages.services.services', $data);
+    }
+
+    public function consultationjuridiques()
+    {
+        $data = [];
+        return view('frontend.pages.services.consultation-juridiques', $data);
+    }
+
+    public function recouvrementetcréances()
+    {
+        $data = [];
+        return view('frontend.pages.services.recouvrement-et-créances', $data);
+    }
+
+    public function assistancesjuridiques()
+    {
+        $data = [];
+        return view('frontend.pages.services.assistances-juridiques', $data);
+    }
+
+
+    public function auditjuridique()
+    {
+        $data = [];
+        return view('frontend.pages.services.audit-juridique', $data);
+    }
+
+    public function avislégal()
+    {
+        $data = [];
+        return view('frontend.pages.services.avis-légal', $data);
+    }
+
+    public function juridictionsciviles()
+    {
+        $data = [];
+        return view('frontend.pages.services.juridictions-civiles', $data);
+    }
 }

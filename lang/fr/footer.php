@@ -3,5 +3,6 @@
 return [
 
     'gallery' => 'Gallerie',
+    'newsletter' => 'Journal',
 
 ];

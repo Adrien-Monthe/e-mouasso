@@ -6,4 +6,5 @@ return [
     'nav-contact' => 'Contact',
     'nav-blog' => 'Actualités',
     'nav-services' => 'Services',
+    'nav-team' => 'Team',
 ];

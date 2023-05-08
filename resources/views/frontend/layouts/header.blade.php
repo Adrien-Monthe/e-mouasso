@@ -3,7 +3,7 @@
         <div class="main-menu__wrapper">
             <div class="main-menu__wrapper-inner">
                 <div class="main-menu__logo">
-                    <a href="{{ route('home') }}"><img src="/frontend/images/resources/logo-3.png" alt=""></a>
+                    <a href="{{ route('home',app()->getLocale()) }}"><img src="/frontend/images/resources/logo-3.png" alt=""></a>
                 </div>
                 <div class="main-menu__call">
                     <div class="main-menu__call-icon">
@@ -40,9 +40,9 @@
                             </div>
                             <div class="main-menu__top-right">
                                 <ul class="list-unstyled main-menu__top-menu">
-                                    <li><a href="{{ route('about') }}">@lang('navigation.nav-about')</a></li>
-                                    <li><a href="about.html">Help</a></li>
-                                    <li><a href="{{ route('contact') }}">@lang('navigation.nav-contact')</a></li>
+                                    <li><a href="{{ route('about',app()->getLocale()) }}">@lang('navigation.nav-about')</a></li>
+                                    <li><a href="{{ route('faqs',app()->getLocale()) }}">FAQ</a></li>
+                                    <li><a href="{{ route('contact',app()->getLocale()) }}">@lang('navigation.nav-contact')</a></li>
                                 </ul>
                                 <div class="main-menu__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -59,13 +59,13 @@
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <ul class="main-menu__list">
                                     <li class="">
-                                        <a href="{{ route('about') }}">@lang('navigation.nav-home') </a>
+                                        <a href="{{ route('home',app()->getLocale()) }}">@lang('navigation.nav-home') </a>
 
                                     </li>
                                     <li class="">
-                                        <a href="{{ route('about') }}">@lang('navigation.nav-about')</a>
+                                        <a href="{{ route('about',app()->getLocale()) }}">@lang('navigation.nav-about')</a>
                                     </li>
-                                    <li class="dropdown">
+                                    {{--<li class="dropdown">
                                         <a href="#">Pages</a>
                                         <ul class="sub-menu">
                                             <li><a href="team.html">Our Team</a></li>
@@ -74,31 +74,32 @@
                                             <li><a href="careers.html">Careers</a></li>
                                             <li><a href="faq.html">Faqs</a></li>
                                         </ul>
-                                    </li>
+                                    </li> --}}
                                     <li class="dropdown">
-                                        <a href="#">Services</a>
+                                        <a href="{{ route('services',app()->getLocale()) }}">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="capital-market.html">Capital Market</a></li>
-                                            <li><a href="insurance.html">Insurance</a></li>
-                                            <li><a href="mutual-funds.html">Mutual Funds</a></li>
-                                            <li><a href="portfolio-mangement.html">Portfolio Mangement</a></li>
-                                            <li><a href="fixed-income.html">Fixed Income</a></li>
-                                            <li><a href="loans.html">Loans</a></li>
+                                            <li><a href="{{ route('consultationjuridiques', app()->getLocale()) }}">@lang('services.legal_consultations')</a></li>
+                                            <li><a href="{{ route('recouvrementetcréances', app()->getLocale()) }}">@lang('services.debt_collection_&_recovery')</a></li>
+                                            <li><a href="{{ route('assistancesjuridiques', app()->getLocale()) }}">@lang('services.legal_and_administrative_support')</a></li>
+                                            <li><a href="{{ route('auditjuridique', app()->getLocale()) }}">@lang('services.legal_and_social_audit')</a></li>
+                                            <li><a href="{{ route('avislégal', app()->getLocale()) }}">@lang('services.legal_disclaimer')</a></li>
+                                            <li><a href="{{ route('juridictionsciviles', app()->getLocale()) }}">@lang('services.representation_and_assistance_in_civil_courts')</a></li>
+
                                         </ul>
                                     </li>
-                                    <li class="dropdown">
-                                        <a href="#">Portfolio</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
+
                                     <li class="">
-                                        <a href="{{ route('blog') }}">@lang('navigation.nav-blog')</a>
+                                        <a href="{{ route('blog', app()->getLocale()) }}">@lang('navigation.nav-blog')</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('contact') }}">Contact</a>
+                                        <a href="{{ route('contact', app()->getLocale()) }}">Contact</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">{{ strtoupper(app()->getLocale()) }}</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{ route('home', ['fr']) }}">Francais</a></li>
+                                            <li><a href="{{ route('home', ['en']) }}">English</a></li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </div>
