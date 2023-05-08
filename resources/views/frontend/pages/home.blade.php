@@ -971,8 +971,8 @@
         <div class="counter-one__bottom">
             <div class="container">
                 <div class="counter-one__bottom-inner">
-                    <p class="counter-one__bottom-text">Need best business consultation solutions & services? <a
-                            href="#">Send a Request</a></p>
+                    <p class="counter-one__bottom-text">@lang('general.need-best') <a
+                            href="{{ route('contact', app()->getLocale()) }}">@lang('general.send-request')</a></p>
                     <div class="counter-one__call-box">
                         <p>@lang('general.call') <a href="tel:00237699374564">+237 699374564</a></p>
                         <div class="counter-one__call-icon">

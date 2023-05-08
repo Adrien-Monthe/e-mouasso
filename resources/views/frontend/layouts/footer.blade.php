@@ -11,11 +11,10 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__logo">
-                            <a href="index.html"><img src="/frontend/images/resources/footer-logo.png" alt=""></a>
+                            <a href="{{ route('home', app()->getLocale()) }}"><img style="max-width: 75px; float: left;
+margin-right: 10px;" src="/frontend/images/resources/logo-4.png" alt=""></a>
                         </div>
-                        <p class="footer-widget__about-text">Lorem ipsum dolor sit amet, consect etur adi
-                            pisicing
-                            elit sed do eiusmod tempor incididunt ut labore.</p>
+                        <p class="footer-widget__about-text" style="text-align: justify">Nous sommes un Cabinet d’Avocats qui a pour ambitions de fournir à sa clientèle des prestations juridiques de haute qualité dans un environnement juridique et judiciaire très complexe.</p>
                         <div class="site-footer__social">
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-facebook"></i></a>

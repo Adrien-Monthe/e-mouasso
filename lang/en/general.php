@@ -24,4 +24,8 @@ return [
     'entries-per-page' => 'Entries per Page',
     'all' => 'All',
     'more-info' => 'Read more',
+    'send-request' => 'Send a Request',
+
+    'call' => 'Call',
+    'need-best' => "Need best business consultation solutions & services?",
 ];

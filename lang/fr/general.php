@@ -25,5 +25,7 @@ return [
     'entries-per-page' => 'Lignes par Page',
     'all' => 'Tous',
     'call' => 'Appellez',
+    'send-request' => 'Contactez Nous',
+    'need-best' => "Besoin des meilleurs services et solutions de conseil aux entreprises ?",
 
 ];

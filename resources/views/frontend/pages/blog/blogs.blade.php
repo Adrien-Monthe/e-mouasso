@@ -58,7 +58,7 @@
                             <div class="news-one__img-box">
                                 <div class="news-one__img">
                                     <img src="{{ asset( $blog->image_path ?  :  'frontend/images/Blog/default-blog-image.webp')}}" alt="">
-                                    <a href="{{ route('single_blog_page', [$blog->codename ] ) }}">
+                                    <a href="{{ route('single_blog_page', [app()->getLocale(), $blog->codename ] ) }}">
                                         <span class="news-one__plus"></span>
                                     </a>
                                 </div>
