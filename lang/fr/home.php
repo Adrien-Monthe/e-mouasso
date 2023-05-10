@@ -10,5 +10,10 @@ return [
     'droit-bancaire' => 'Droit Bancaire',
     'droit-travail' => 'Droit du travail',
     'droit-civil' => 'Droit civil',
+    'droit-foncier' => 'Droit Foncier',
+    '10-years-experience' => '10 ans d\'expérience en conseil juridique',
+    'what-we-are-doing' => 'Ce que nous offrons',
+    'what-we-are-doing-title' => 'Les meilleurs <span>services</span> de conseil & de financement',
+    'what-we-are-doing-text' => "Chez E. Mouasso & Partners, nous offrons une gamme complète de services juridiques de premier ordre au Cameroun. Notre équipe d'avocats compétents et expérimentés est dévouée à fournir des solutions juridiques sur mesure pour répondre aux besoins de nos clients, qu'ils soient des particuliers, des entreprises ou des organisations.",
 
 ];

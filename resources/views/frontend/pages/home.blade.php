@@ -205,7 +205,7 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Droit Foncier </p>
+                                            <p>@lang('home.droit-foncier') </p>
                                         </div>
                                     </li>
                                 </ul>
@@ -215,7 +215,7 @@
                                     <span class="icon-certificate"></span>
                                 </div>
                                 <div class="about-one__experience-text">
-                                    <p>10 Years of Consulting Experience</p>
+                                    <p>@lang('home.10-years-experience')</p>
                                 </div>
                             </div>
                         </div>
@@ -243,19 +243,15 @@
                         <div class="services-one__left">
                             <div class="section-title text-left">
                                 <div class="section-title__tagline-box">
-                                    <span class="section-title__tagline">what we’re doing</span>
+                                    <span class="section-title__tagline">@lang('home.what-we-are-doing')</span>
                                 </div>
-                                <h2 class="section-title__title">Offering the Best Consulting
-                                    <br> & Finance <span>Services</span></h2>
+                                <h2 class="section-title__title">@lang('home.what-we-are-doing-title')</h2>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="services-one__right">
-                            <p class="services-one__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing
-                                <br> elit sed do eiusmod tempor incididunt ut labore et simply free text dolore
-                                magna
-                                aliqua lonm andhn.</p>
+                            <p class="services-one__text" style="text-align: justify">@lang('home.what-we-are-doing-text')</p>
                         </div>
                     </div>
                 </div>
@@ -266,7 +262,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="services-one__single">
                             <div class="services-one__title-box">
-                                <h3 class="services-one__title"><a href="capital-market.html">Capital Market</a>
+                                <h3 class="services-one__title"><a href="{{ route('consultationjuridiques', app()->getLocale()) }}">@lang('services.legal_consultations')</a>
                                 </h3>
                             </div>
                             <div class="services-one__img-box">
@@ -278,7 +274,7 @@
                                 </div>
                             </div>
                             <div class="services-one__read-more">
-                                <a href="capital-market.html">Read More<span class="icon-right-arrow"></span></a>
+                                <a href="{{ route('consultationjuridiques', app()->getLocale()) }}">@lang('general.read-more')<span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -287,7 +283,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="services-one__single">
                             <div class="services-one__title-box">
-                                <h3 class="services-one__title"><a href="insurance.html">Insurance</a></h3>
+                                <h3 class="services-one__title"><a href="{{ route('recouvrementetcréances', app()->getLocale()) }}">@lang('services.debt_collection_&_recovery')</a></h3>
                             </div>
                             <div class="services-one__img-box">
                                 <div class="services-one__img">
@@ -298,7 +294,7 @@
                                 </div>
                             </div>
                             <div class="services-one__read-more">
-                                <a href="insurance.html">Read More<span class="icon-right-arrow"></span></a>
+                                <a href="{{ route('recouvrementetcréances', app()->getLocale()) }}">@lang('general.read-more')<span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -307,7 +303,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="services-one__single">
                             <div class="services-one__title-box">
-                                <h3 class="services-one__title"><a href="mutual-funds.html">Mutual Funds</a>
+                                <h3 class="services-one__title"><a href="{{ route('assistancesjuridiques', app()->getLocale()) }}">@lang('services.legal_and_administrative_support')</a>
                                 </h3>
                             </div>
                             <div class="services-one__img-box">
@@ -319,7 +315,7 @@
                                 </div>
                             </div>
                             <div class="services-one__read-more">
-                                <a href="mutual-funds.html">Read More<span class="icon-right-arrow"></span></a>
+                                <a href="{{ route('assistancesjuridiques', app()->getLocale()) }}">@lang('general.read-more')<span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -328,8 +324,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                         <div class="services-one__single">
                             <div class="services-one__title-box">
-                                <h3 class="services-one__title"><a href="portfolio-mangement.html">Portfolio
-                                        Management</a></h3>
+                                <h3 class="services-one__title"><a href="{{ route('auditjuridique', app()->getLocale()) }}">@lang('services.legal_and_social_audit')</a></h3>
                             </div>
                             <div class="services-one__img-box">
                                 <div class="services-one__img">
@@ -340,7 +335,7 @@
                                 </div>
                             </div>
                             <div class="services-one__read-more">
-                                <a href="portfolio-mangement.html">Read More<span
+                                <a href="{{ route('auditjuridique', app()->getLocale()) }}">@lang('general.read-more')<span
                                         class="icon-right-arrow"></span></a>
                             </div>
                         </div>
