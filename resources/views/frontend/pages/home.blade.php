@@ -127,7 +127,7 @@
     <section class="about-one">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-5">
                     <div class="about-one__left">
                         <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
                              data-wow-duration="2500ms">
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-7">
                     <div class="about-one__right">
                         <div class="section-title text-left">
                             <div class="section-title__tagline-box">
@@ -182,6 +182,22 @@
                                             <p>@lang('home.droit-bancaire')</p>
                                         </div>
                                     </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>@lang('home.finances-inter') </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>@lang('home.contentieux-cnps') </p>
+                                        </div>
+                                    </li>
                                 </ul>
                                 <ul class="about-one__points-list list-unstyled">
                                     <li>
@@ -197,7 +213,7 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>@lang('home.droit-travail')</p>
+                                            <p>@lang('home.droit-civil')</p>
                                         </div>
                                     </li>
                                     <li>
@@ -208,6 +224,15 @@
                                             <p>@lang('home.droit-foncier') </p>
                                         </div>
                                     </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>@lang('home.contentieux-fiscal') </p>
+                                        </div>
+                                    </li>
+
                                 </ul>
                             </div>
                             <div class="about-one__experience-box">
@@ -449,8 +474,8 @@
                         </div>
                     </a>
                 </div>
-                <h3 class="video-one__title">Sinace Envision & Transofrm
-                    <br> Your Business</h3>
+                <h3 class="video-one__title">E. Mouasso & Partners Law Firm
+                    <br> </h3>
                 <div class="video-one__btn-box">
                     <a href=" {{ route ('about') }}" class="video-one__btn thm-btn"> @lang('general.read-more')</a>
                 </div>
