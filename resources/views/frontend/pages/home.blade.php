@@ -969,7 +969,7 @@
                     <p class="counter-one__bottom-text">@lang('general.need-best') <a
                             href="{{ route('contact', app()->getLocale()) }}">@lang('general.send-request')</a></p>
                     <div class="counter-one__call-box">
-                        <p>@lang('general.call') <a href="tel:00237699374564">+237 699374564</a></p>
+                        <p>@lang('general.call') <a href="tel:00237699374564">+237 233-424-213</a></p>
                         <div class="counter-one__call-icon">
                             <span class="icon-telephone-1"></span>
                         </div>
