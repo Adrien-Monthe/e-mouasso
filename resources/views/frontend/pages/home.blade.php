@@ -475,7 +475,7 @@
                     </a>
                 </div>
                 <h3 class="video-one__title">E. Mouasso & Partners Law Firm
-                    <br> </h3>
+                    <br>@lang('home.your-legal-partner') </h3>
                 <div class="video-one__btn-box">
                     <a href=" {{ route ('about') }}" class="video-one__btn thm-btn"> @lang('general.read-more')</a>
                 </div>
