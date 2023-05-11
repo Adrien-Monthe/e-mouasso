@@ -65,7 +65,7 @@ margin-right: 10px;" src="/frontend/images/resources/logo-4.png" alt=""></a>
                                     <span class="fas fa-phone-square"></span>
                                 </div>
                                 <div class="text">
-                                    <a href="tel:+237699374564">+237 699-374-564</a>
+                                    <a href="tel:+237699374564">+237 233-424-213</a>
                                 </div>
                             </li>
                         </ul>

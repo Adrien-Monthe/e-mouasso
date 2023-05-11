@@ -57,7 +57,7 @@
                             </div>
                             <div class="text">
                                 <p>@lang('contact.talk-to-expert')</p>
-                                <h3><a href="tel:00237699374564">+237 699374564</a></h3>
+                                <h3><a href="tel:00237699374564">+237 233-424-213</a></h3>
                             </div>
                         </li>
                         <li>
@@ -75,7 +75,7 @@
                             </div>
                             <div class="text">
                                 <p>@lang('contact.visit-anytime')</p>
-                                <h3>B.P. 2649, NIKI Akwa, Douala</h3>
+                                <h3>B.P. 4926, NIKI Akwa, Douala</h3>
                             </div>
                         </li>
                     </ul>

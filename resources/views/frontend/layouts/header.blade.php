@@ -11,7 +11,7 @@
                     </div>
                     <div class="main-menu__call-content">
                         <p class="main-menu__call-sub-title">Contactez Nous</p>
-                        <h5 class="main-menu__call-number"><a href="tel:237699374564">+237 699-37-45-64</a></h5>
+                        <h5 class="main-menu__call-number"><a href="tel:237699374564">+237 233-424-213</a></h5>
                     </div>
                 </div>
                 <div class="main-menu__wrapper-inner-content">
@@ -33,7 +33,7 @@
                                             <i class="fas fa-map-marker"></i>
                                         </div>
                                         <div class="text">
-                                            <p>B.P. 2649 Douala, Cameroun</p>
+                                            <p>B.P. 4926 Douala, Cameroun</p>
                                         </div>
                                     </li>
                                 </ul>
