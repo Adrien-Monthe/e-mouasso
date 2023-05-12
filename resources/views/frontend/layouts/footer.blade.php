@@ -6,7 +6,7 @@
     <div class="site-footer__bg" style="background-image: url(/frontend/images/backgrounds/site-footer-bg.png);">
     </div>
     <div class="site-footer__top">
-        <div class="container">
+        <div class="container-2">
             <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
@@ -26,14 +26,14 @@ margin-right: 10px;" src="/frontend/images/resources/logo-4.png" alt=""></a>
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="footer-widget__column footer-widget__link">
                         <div class="footer-widget__title-box">
-                            <h3 class="footer-widget__title">Explore</h3>
+                            <h3 class="footer-widget__title">@lang('footer.explore')</h3>
                         </div>
                         <ul class="footer-widget__link-list list-unstyled">
-                            <li><a href="{{ route('services') }}">@lang('navigation.nav-services')</a></li>
-                            <li><a href="{{ route('about') }}">@lang('navigation.nav-about')</a></li>
-                            <li><a href="portfolio.html">Latest Projects</a></li>
-                            <li><a href="team.html">Our Team</a></li>
-                            <li><a href="{{ route('contact') }}">@lang('navigation.nav-contact')</a></li>
+                            <li><a href="{{ route('services', app()->getLocale()) }}">@lang('navigation.nav-services')</a></li>
+                            <li><a href="{{ route('about', app()->getLocale()) }}">@lang('navigation.nav-about')</a></li>
+                            <li><a href="#">@lang('navigation.nav-achievements')</a></li>
+                            <li><a href="#">@lang('navigation.nav-team')</a></li>
+                            <li><a href="{{ route('contact', app()->getLocale()) }}">@lang('navigation.nav-contact')</a></li>
                         </ul>
                     </div>
                 </div>
