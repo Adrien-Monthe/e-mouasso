@@ -499,8 +499,7 @@
                             <h2 class="section-title__title">Clients are
                                 <span>Talking</span></h2>
                         </div>
-                        <p class="testimonial-one__left-text">Lorem Ipsum. Proin gravida nibh vel velit auctor
-                            aliquet. Aenean solldin, lorem is simply.</p>
+                        <p class="testimonial-one__left-text" style="text-align: justify;">@lang('home.our-feedbacks-text')</p>
                         <div class="testimonial-one__rounded-text">
                             <a href="testimonials.html" class="testimonial-one__curved-circle-box">
                                 <div class="curved-circle">

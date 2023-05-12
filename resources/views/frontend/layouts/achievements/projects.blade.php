@@ -3,15 +3,14 @@
     <div class="container">
         <div class="section-title text-center">
             <div class="section-title__tagline-box">
-                <span class="section-title__tagline">Recent work lists</span>
+                <span class="section-title__tagline">@lang('achievements.recent-projects')</span>
             </div>
-            <h2 class="section-title__title">Recently Completed Our
-                <br> Clients <span>Projects</span></h2>
+            <h2 class="section-title__title">@lang('achievements.recent-projects-head')</h2>
         </div>
         <div class="project-one__bottom">
             <div class="project-one__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
                         "loop": true,
-                        "autoplay": false,
+                        "autoplay": true,
                         "margin": 30,
                         "nav": true,
                         "dots": false,

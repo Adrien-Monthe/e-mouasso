@@ -19,5 +19,8 @@ return [
     'what-we-are-doing' => 'Ce que nous offrons',
     'what-we-are-doing-title' => 'Les meilleurs <span>services</span> de conseil & de financement',
     'what-we-are-doing-text' => "Chez E. Mouasso & Partners, nous offrons une gamme complète de services juridiques de premier ordre au Cameroun. Notre équipe d'avocats compétents et expérimentés est dévouée à fournir des solutions juridiques sur mesure pour répondre aux besoins de nos clients, qu'ils soient des particuliers, des entreprises ou des organisations.",
+    'our-feedbacks' => "",
+    'our-feedbacks-head' => "",
+    'our-feedbacks-text' => "Nous sommes guidés par une éthique de travail solide, un sens aigu de la justice et un désir constant d'obtenir les meilleurs résultats pour nos clients.",
 
 ];

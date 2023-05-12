@@ -7,18 +7,15 @@
                     <div class="team-one__left">
                         <div class="section-title text-left">
                             <div class="section-title__tagline-box">
-                                <span class="section-title__tagline">meet our team</span>
+                                <span class="section-title__tagline">@lang('team.meet-our-team')</span>
                             </div>
-                            <h2 class="section-title__title">Meet the People Behind
-                                <br> the High <span>Success</span></h2>
+                            <h2 class="section-title__title">@lang('team.meet-our-team-head')</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6">
                     <div class="team-one__right">
-                        <p class="team-one__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing
-                            elit sed do eiusmod tempor incididunt ut labore et simply free text dolore magna
-                            aliqua lonm andhn.</p>
+                        <p class="team-one__text" style="text-align: justify">@lang('team.meet-our-team-text')</p>
                     </div>
                 </div>
             </div>
