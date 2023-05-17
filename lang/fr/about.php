@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'page-title' => 'Apropos',
+    'page-title' => 'À Propos',
     'qui-sommes-nous' => 'Qui Sommes Nous',
     'nous-sommes-un-cabinet' => "Nous sommes un Cabinet d’Avocats qui a pour ambitions de fournir à sa clientèle des prestations juridiques de haute qualité dans un environnement juridique et judiciaire très complexe.",
-    'welcome_to_agency' => 'Bienvenue à l’agence',
+    'welcome_to_agency' => 'Bienvenue au Cabinet',
     'get_to_know_about' => 'À savoir',
     'consultancy' => 'Consultations',
     'company' => 'Entreprise',
