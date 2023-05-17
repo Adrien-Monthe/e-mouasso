@@ -127,11 +127,10 @@ return [
     juridictions.',
     'for' => 'Un avocat ou une équipe juridique peut représenter un particulier ou une entreprise dans un procès civil.
     dans une affaire civile, en fournissant des conseils juridiques, des orientations et une représentation tout au long de la procédure judiciaire.',
-    'fon' => 'Dans l’ensemble, la représentation et l’assistance devant les juridictions civiles sont des services essentiels qui
-    aider les particuliers et les entreprises à s’orienter dans le système juridique complexe et à protéger
+    'fon' => 'Dans l’ensemble, la représentation et l’assistance devant les juridictions  sont des services essentiels qui
+    aident les particuliers et les entreprises à s’orienter dans un système juridique complexe et à protéger
     leurs intérêts juridiques et financiers. En travaillant avec des professionnels du droit expérimentés,
-    expérimentés, les clients peuvent augmenter leurs chances de succès dans les affaires civiles et obtenir le meilleur résultat possible pour leur situation.
-    et obtenir le meilleur résultat possible dans leur situation.',
+    les clients peuvent augmenter leurs chances de succès dans les affaires civiles et obtenir le meilleur résultat possible pour leur litige.',
     'fos' => 'Nous proposons aux entreprises plusieurs solutions pour les aider à protéger leurs intérêts juridiques et financiers et à atteindre leurs objectifs.',
     'fox' => 'Les règles du marché de la représentation et de l’assistance devant les juridictions civiles font référence aux principes qui guident la fourniture de services juridiques sur le marché dans les affaires civiles.',
     'fow' => 'La représentation et l’assistance devant les juridictions civiles présentent de nombreux avantages, dont certains sont énumérés ci-dessous.',
