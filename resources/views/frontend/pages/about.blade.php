@@ -120,7 +120,7 @@
                 <span class="section-title__tagline">@lang('about.recent_work_lists')</span>
             </div>
             <h2 class="section-title__title" >@lang('about.consultancy_work_that_meets')
-                <br> @lang('about.your') <span>@lang('about.expectations')</span></h2>
+                </h2>
         </div>
         <div class="expectation-one__inner">
             <div class="container">

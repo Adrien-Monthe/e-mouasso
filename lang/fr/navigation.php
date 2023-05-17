@@ -2,7 +2,7 @@
 
 return [
     'nav-home' => 'Accueil',
-    'nav-about' => 'Apropos',
+    'nav-about' => 'À Propos',
     'nav-contact' => 'Contact',
     'nav-blog' => 'Actualités',
     'nav-services' => 'Services',
