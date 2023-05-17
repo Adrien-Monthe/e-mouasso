@@ -112,7 +112,7 @@
                                 <div class="text">
                                     <p>@lang('contact.talk-to-expert')</p>
                                     <h3><a href="mailto:info@e-mouassoandpartners.com">info@e-mouassoandpartners.com</a></h3>
-                                    <h3><a href="mailto:edmouasso@gmail.com">edmouasso@gmail.com</a></h3>
+                                    <h3><a href="mailto:mouassolawfirm@gmail.com">mouassolawfirm@gmail.com</a></h3>
                                 </div>
                             </li>
                             <li>
