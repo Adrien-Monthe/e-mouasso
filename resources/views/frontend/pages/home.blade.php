@@ -49,7 +49,7 @@
                         <h2 class="main-slider__title">Assitance Administrative <br>
                             & Juridique</h2>
                         <div class="main-slider__btn-box">
-                            <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn">@lang('general.read-more')</a>
+                            <a href=" {{ route ('about', app()->getLocale()) }}" class="main-slider__btn thm-btn">@lang('general.read-more')</a>
                         </div>
                     </div>
                 </div>
