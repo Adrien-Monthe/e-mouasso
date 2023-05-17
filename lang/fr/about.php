@@ -23,13 +23,13 @@ return [
     'our-testimonials-heading' => 'Ce qu\'ils disent <br> de<span>Nous</span>',
     'what_they’re_talking' => 'Ce qu’ils disent',
     'fa' => 'Nous sommes un Cabinet d’Avocats qui a pour ambitions de fournir à sa clientèle des prestations juridiques de haute qualité dans un environnement juridique et judiciaire très complexe.',
-    'far' => 'EM & Partners Law Firm réduit les frais généraux tels que le loyer, les services publics et les fournitures de bureau, fournit un service exceptionnel à la clientèle afin de créer une base de clients fidèles et de générer des recommandations.
-    EM & Partners Law Firm s’aligne sur les buts et les objectifs pour assurer un succès à long terme.',
+    'far' => 'EM & Partners Law Firm  réduit les frais généraux tels que le loyer, les services publics et les fournitures de bureau, fournit un service exceptionnel à la clientèle afin de créer une base de clients fidèles et de générer des recommandations.
+    EM & Partners Law Firm  s’aligne sur les buts et les objectifs pour assurer un succès à long terme.',
     'fan' => 'Nous aidons les entreprises à élaborer des politiques et des procédures
     qui respectent les lois et règlements applicables, tout en optimisant la performance et la productivité de l’organisation.',
-    'fas' => 'EM & Partners Law Firm fournit une feuille de route pour la croissance et le développement de L\'entreprise
+    'fas' => 'EM & Partners Law Firm  fournit une feuille de route pour la croissance et le développement de L\'entreprise
      et l’aider à prendre des décisions éclairées sur l’affectation des ressources, les stratégies de marketing et d’autres questions commerciales importantes.',
-    'fax' => 'Le cabinet d’avocats EM & Partners Law Firm est fier de disposer d’une équipe d’avocats et de juristes expérimentés et dévoués qui s’engagent à fournir des services exceptionnels.
+    'fax' => 'Le cabinet d’avocats EM & Partners Law Firm  est fier de disposer d’une équipe d’avocats et de juristes expérimentés et dévoués qui s’engagent à fournir des services exceptionnels.
     d’avocats expérimentés et dévoués qui s’engagent à fournir des services juridiques exceptionnels aux clients.',
 
 ];

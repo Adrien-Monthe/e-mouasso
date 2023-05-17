@@ -14,7 +14,7 @@ return [
     'legal_and_administrative_support' => 'Assistance Juridique et Administrative',
     'legal_and_social_audit' => 'Audit juridique et social',
     'legal_disclaimer' => 'Avis légal',
-    'representation_and_assistance_in_civil_courts' => 'Représentation et Assistance des Juridictions Civiles',
+    'representation_and_assistance_in_civil_courts' => 'Représentation et Assistance des Juridictions',
     'contact_now' => 'Contactez nous',
     'da' => 'Les objectifs de la consultation juridique sont de fournir aux clients des avis et des conseils juridiques précis
     des conseils juridiques précis, de les aider à comprendre leurs droits et obligations juridiques et de les aider à prendre des décisions éclairées sur des questions juridiques,
@@ -22,7 +22,7 @@ return [
     à identifier les risques juridiques potentiels et à élaborer des stratégies pour les atténuer. En outre, la consultation juridique peut aider les clients à évaluer la solidité de leur dossier,
     En outre, une consultation juridique peut aider les clients à évaluer la solidité de leur position juridique et à déterminer le meilleur plan d’action pour atteindre leurs objectifs.
     d’action pour atteindre leurs objectifs.',
-    'dar' => 'En s’adressant à EM & Partners Law Firm, les clients peuvent
+    'dar' => 'En s’adressant à EM & Partners Law Firm , les clients peuvent
     s’assurer que leurs questions juridiques sont traitées de manière professionnelle et efficace,
     et qu’ils ont accès aux ressources et à l’expertise nécessaires pour obtenir un résultat favorable.',
     'dan' => 'Globalement, l’objectif de la consultation juridique est de fournir aux clients les informations et les conseils dont ils ont besoin pour prendre des décisions éclairées concernant leurs affaires juridiques et pour atteindre leurs objectifs.
@@ -30,7 +30,7 @@ return [
     le meilleur résultat possible. Aider les clients à naviguer dans le système juridique complexe et veiller à ce que leurs droits soient protégés.
     leurs droits légaux soient protégés.',
     'business_solution' => 'Solution d’affaires',
-    'das' => 'EM & Partners peut aider les entreprises à identifier les risques juridiques potentiels et à élaborer des stratégies pour les atténuer.',
+    'das' => 'EM & Partners Law Firm peut aider les entreprises à identifier les risques juridiques potentiels et à élaborer des stratégies pour les atténuer.',
     'market_rules' => 'Les règles du marché',
     'dax' => 'Nous offrons des services professionnels et, à ce titre, nous sommes tenus de respecter des normes élevées en matière d’éthique et de professionnalisme.',
     'our_benefits' => 'Nos avantages',
@@ -69,7 +69,7 @@ return [
     à la propriété, aux dommages corporels et à d’autres questions juridiques. Nous fournissons aux parties des conseils juridiques
     sur leur affaire, y compris une évaluation de leurs droits et obligations juridiques,
     des résultats potentiels et des stratégies pour atteindre leurs objectifs.',
-    'sor' => 'EM & Partners représente les parties dans la
+    'sor' => 'EM & Partners Law Firm représente les parties dans la
     la procédure d’appel, y compris la préparation et le dépôt des appels et la plaidoirie
     devant une cour d’appel.',
     'son' => 'Globalement, la représentation et l’assistance devant les juridictions civiles sont conçues pour aider les parties
