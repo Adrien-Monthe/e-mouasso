@@ -122,12 +122,11 @@ return [
     'jurisdiction' => 'Compétence',
     'privacy_protection' => 'Protection de la vie privée',
     'user_education' => 'Formation des utilisateurs',
-    'fo' => 'La représentation et l’assistance devant les juridictions civiles font référence aux
+    'fo' => 'La représentation et l’assistance devant les juridictions fait référence aux
     services juridiques fournis aux particuliers ou aux entreprises impliqués dans un litige devant une
     juridictions.',
     'for' => 'Un avocat ou une équipe juridique peut représenter un particulier ou une entreprise dans un procès civil.
-    dans une affaire civile, en fournissant des conseils juridiques, des orientations et une représentation tout au long de la procédure judiciaire.
-    procédure judiciaire.',
+    dans une affaire civile, en fournissant des conseils juridiques, des orientations et une représentation tout au long de la procédure judiciaire.',
     'fon' => 'Dans l’ensemble, la représentation et l’assistance devant les juridictions civiles sont des services essentiels qui
     aider les particuliers et les entreprises à s’orienter dans le système juridique complexe et à protéger
     leurs intérêts juridiques et financiers. En travaillant avec des professionnels du droit expérimentés,
