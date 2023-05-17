@@ -124,8 +124,7 @@ return [
     'user_education' => 'Formation des utilisateurs',
     'fo' => 'La représentation et l’assistance devant les juridictions civiles font référence aux
     services juridiques fournis aux particuliers ou aux entreprises impliqués dans un litige devant une
-    devant un tribunal civil. Les tribunaux civils traitent des affaires liées à des litiges entre particuliers ou
-    organisations, tels que les litiges contractuels, les litiges relatifs à la propriété et les affaires de dommages corporels.',
+    juridictions.',
     'for' => 'Un avocat ou une équipe juridique peut représenter un particulier ou une entreprise dans un procès civil.
     dans une affaire civile, en fournissant des conseils juridiques, des orientations et une représentation tout au long de la procédure judiciaire.
     procédure judiciaire.',
