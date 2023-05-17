@@ -30,9 +30,9 @@ return [
     'fas' => 'EM & Partners Law Firm fournit une feuille de route pour la croissance et le développement de L\'entreprise
      et l’aider à prendre des décisions éclairées sur l’affectation des ressources, les stratégies de marketing et d’autres questions commerciales importantes.',
     'fax' => 'Le cabinet d’avocats EM & Partners Law Firm est fier de disposer d’une équipe d’avocats et de juristes expérimentés et dévoués qui s’engagent à fournir des services exceptionnels.
-    d’avocats expérimentés et dévoués qui s’engagent à fournir des services juridiques exceptionnels à nos clients.
-    services juridiques exceptionnels à nos clients. Notre équipe comprend certains des avocats les plus talentueux et les plus respectés de la profession juridique.
+    d’avocats expérimentés et dévoués qui s’engagent à fournir des services juridiques exceptionnels aux clients.
+    Notre équipe comprend certains des avocats les plus talentueux et les plus respectés de la profession juridique.
     talentueux et respectés de la profession juridique, chacun d’entre eux apportant un ensemble unique de compétences et d’expertise à notre pratique.
-    de compétences et d’expertise à notre pratique.',
+   ',
 
 ];
