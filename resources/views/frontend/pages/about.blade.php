@@ -163,8 +163,7 @@
                                 <div class="section-title__tagline-box">
                                     <span class="section-title__tagline">@lang('about.meet_our_team')</span>
                                 </div>
-                                <h2 class="section-title__title">@lang('about.meet_the_people_behind')
-                                    <br> @lang('about.the_high')  <span>@lang('about.success')</span></h2>
+                                <h2 class="section-title__title">@lang('about.meet_the_people_behind')</h2>
                             </div>
                         </div>
                     </div>
