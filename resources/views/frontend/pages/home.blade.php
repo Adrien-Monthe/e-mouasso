@@ -57,7 +57,7 @@
 
             <div class="item main-slider__slide-2">
                 <div class="main-slider__bg"
-                     style="background-image: url(/frontend/images/backgrounds/slider-1-2.jpg);">
+                     style="background-image: url('/frontend/images/backgrounds/slider-1-2.jpg');">
                 </div><!-- /.slider-one__bg -->
                 <div class="main-slider__shadow"></div>
                 <div class="main-slider__shape-1 float-bob-y">
@@ -497,10 +497,10 @@
                         </div>
                         <p class="testimonial-one__left-text" style="text-align: justify;">@lang('home.our-feedbacks-text')</p>
                         <div class="testimonial-one__rounded-text">
-                            <a href="testimonials.html" class="testimonial-one__curved-circle-box">
+                            <a href="#" class="testimonial-one__curved-circle-box">
                                 <div class="curved-circle">
                                         <span class="curved-circle--item">
-                                            380 satisfied clients
+                                            @lang('home.380_satisfied_clients')
                                         </span>
                                 </div><!-- /.curved-circle -->
                                 <div class="testimonial-one__icon">
@@ -553,14 +553,11 @@
                                             <span class="fa fa-star"></span>
                                             <span class="fa fa-star"></span>
                                         </div>
-                                        <p class="testimonial-one__text">Lorem ipsum is simply free text dolor
-                                            not sit amet,
-                                            notted adipisicing elit sed do eiusmod incididunt labore et dolore
-                                            text.</p>
+                                        <p class="testimonial-one__text">@lang('home.bas')</p>
                                     </div>
                                     <div class="testimonial-one__client-info">
-                                        <h3><a href="testimonials.html">Aleesha Brown</a></h3>
-                                        <p>Happy Client</p>
+                                        <h3><a href="#">Aleesha Brown</a></h3>
+                                        <p>@lang('home.happy_client')</p>
                                     </div>
                                 </div>
                             </div>
@@ -572,7 +569,7 @@
                                         <div class="testimonial-one__shape-1"></div>
                                         <div class="testimonial-one__shape-2"></div>
                                         <div class="testimonial-one__img">
-                                            <img src="/frontend/images/testimonial/testimonial-1-2.jpg" alt="">
+                                            <img src="/frontend/images/testimonial/t2.jpg" alt="">
                                         </div>
                                         <div class="testimonial-one__ratting">
                                             <span class="fa fa-star"></span>
@@ -581,14 +578,11 @@
                                             <span class="fa fa-star"></span>
                                             <span class="fa fa-star"></span>
                                         </div>
-                                        <p class="testimonial-one__text">Lorem ipsum is simply free text dolor
-                                            not sit amet,
-                                            notted adipisicing elit sed do eiusmod incididunt labore et dolore
-                                            text.</p>
+                                        <p class="testimonial-one__text">@lang('home.bax')</p>
                                     </div>
                                     <div class="testimonial-one__client-info">
-                                        <h3><a href="testimonials.html">Mike Hardson</a></h3>
-                                        <p>Happy Client</p>
+                                        <h3><a href="#">Mike Hardson</a></h3>
+                                        <p>@lang('home.happy_client')</p>
                                     </div>
                                 </div>
                             </div>
@@ -600,7 +594,7 @@
                                         <div class="testimonial-one__shape-1"></div>
                                         <div class="testimonial-one__shape-2"></div>
                                         <div class="testimonial-one__img">
-                                            <img src="/frontend/images/testimonial/testimonial-1-3.jpg" alt="">
+                                            <img src="/frontend/images/testimonial/t1.jpg" alt="">
                                         </div>
                                         <div class="testimonial-one__ratting">
                                             <span class="fa fa-star"></span>
@@ -609,14 +603,11 @@
                                             <span class="fa fa-star"></span>
                                             <span class="fa fa-star"></span>
                                         </div>
-                                        <p class="testimonial-one__text">Lorem ipsum is simply free text dolor
-                                            not sit amet,
-                                            notted adipisicing elit sed do eiusmod incididunt labore et dolore
-                                            text.</p>
+                                        <p class="testimonial-one__text">@lang('home.bat')</p>
                                     </div>
                                     <div class="testimonial-one__client-info">
-                                        <h3><a href="testimonials.html">Sarah Albert</a></h3>
-                                        <p>Happy Client</p>
+                                        <h3><a href="#">Karl Rigobert</a></h3>
+                                        <p>@lang('home.happy_client')</p>
                                     </div>
                                 </div>
                             </div>
