@@ -27,23 +27,21 @@
                     <div class="team-one__single">
                         <div class="team-one__img-box">
                             <div class="team-one__img">
-                                <img src="/frontend/images/team/team-1-1.jpg" alt="">
+                                <img src="/frontend/images/team/team3.jpg" alt="">
                             </div>
                             <div class="team-one__hover-content">
                                 <div class="team-one__hover-arrow-box">
                                     <a href="team-details.html" class="team-one__hover-arrow"><span
                                             class="fas fa-share-alt"></span></a>
                                     <ul class="list-unstyled team-one__social">
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
-                                <h3 class="team-one__hover-title"><a href="team-details.html">Kevin Martin</a>
+                                <h3 class="team-one__hover-title"><a href="team-details.html">Nama Yanick</a>
                                 </h3>
-                                <p class="team-one__hover-sub-title">Consultant</p>
-                                <p class="team-one__hover-text">There are many vartion of passages of available.
+                                <p class="team-one__hover-sub-title">Juriste</p>
+                                <p class="team-one__hover-text">@lang('home.baf')
                                 </p>
                             </div>
                         </div>
@@ -52,8 +50,8 @@
                                 <a href="team-details.html" class="team-one__arrow"><span
                                         class="fas fa-share-alt"></span></a>
                             </div>
-                            <h3 class="team-one__title"><a href="team-details.html">Kevin Martin</a></h3>
-                            <p class="team-one__sub-title">Consultant</p>
+                            <h3 class="team-one__title"><a href="team-details.html">Nama Yanick</a></h3>
+                            <p class="team-one__sub-title">Juriste</p>
                         </div>
                     </div>
                 </div>
@@ -63,23 +61,21 @@
                     <div class="team-one__single">
                         <div class="team-one__img-box">
                             <div class="team-one__img">
-                                <img src="/frontend/images/team/team-1-2.jpg" alt="">
+                                <img src="/frontend/images/team/team1.jpg" alt="">
                             </div>
                             <div class="team-one__hover-content">
                                 <div class="team-one__hover-arrow-box">
                                     <a href="team-details.html" class="team-one__hover-arrow"><span
                                             class="fas fa-share-alt"></span></a>
                                     <ul class="list-unstyled team-one__social">
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
-                                <h3 class="team-one__hover-title"><a href="team-details.html">Jeesica Brown</a>
+                                <h3 class="team-one__hover-title"><a href="team-details.html">Edmond Mouasso</a>
                                 </h3>
-                                <p class="team-one__hover-sub-title">Consultant</p>
-                                <p class="team-one__hover-text">There are many vartion of passages of available.
+                                <p class="team-one__hover-sub-title">Fondateur & Consultant</p>
+                                <p class="team-one__hover-text">@lang('home.bah')
                                 </p>
                             </div>
                         </div>
@@ -88,8 +84,8 @@
                                 <a href="team-details.html" class="team-one__arrow"><span
                                         class="fas fa-share-alt"></span></a>
                             </div>
-                            <h3 class="team-one__title"><a href="team-details.html">Jeesica Brown</a></h3>
-                            <p class="team-one__sub-title">Consultant</p>
+                            <h3 class="team-one__title"><a href="team-details.html">Edmond Mouasso</a></h3>
+                            <p class="team-one__sub-title">Fondateur & Consultant</p>
                         </div>
                     </div>
                 </div>
@@ -99,23 +95,21 @@
                     <div class="team-one__single">
                         <div class="team-one__img-box">
                             <div class="team-one__img">
-                                <img src="/frontend/images/team/team-1-3.jpg" alt="">
+                                <img src="/frontend/images/team/team2.jpeg" alt="">
                             </div>
                             <div class="team-one__hover-content">
                                 <div class="team-one__hover-arrow-box">
                                     <a href="team-details.html" class="team-one__hover-arrow"><span
                                             class="fas fa-share-alt"></span></a>
                                     <ul class="list-unstyled team-one__social">
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/francis.eboute"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="https://instagram.com/fhelespirituojuriste?igshid=NTc4MTIwNjQ2YQ=="><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
-                                <h3 class="team-one__hover-title"><a href="team-details.html">Mike Hardson</a>
+                                <h3 class="team-one__hover-title"><a href="team-details.html">Francis Eboute</a>
                                 </h3>
                                 <p class="team-one__hover-sub-title">Consultant</p>
-                                <p class="team-one__hover-text">There are many vartion of passages of available.
+                                <p class="team-one__hover-text">@lang('home.bag')
                                 </p>
                             </div>
                         </div>
@@ -124,7 +118,7 @@
                                 <a href="team-details.html" class="team-one__arrow"><span
                                         class="fas fa-share-alt"></span></a>
                             </div>
-                            <h3 class="team-one__title"><a href="team-details.html">Mike Hardson</a></h3>
+                            <h3 class="team-one__title"><a href="team-details.html">Francis Eboute</a></h3>
                             <p class="team-one__sub-title">Consultant</p>
                         </div>
                     </div>

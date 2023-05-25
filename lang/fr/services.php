@@ -14,7 +14,7 @@ return [
     'legal_and_administrative_support' => 'Assistance Juridique et Administrative',
     'legal_and_social_audit' => 'Audit juridique et social',
     'legal_disclaimer' => 'Avis légal',
-    'representation_and_assistance_in_civil_courts' => 'Représentation et Assistance des Juridictions',
+    'representation_and_assistance_in_civil_courts' => 'Représentation et Assistance Auprès des Juridictions',
     'contact_now' => 'Contactez nous',
     'da' => 'Les objectifs de la consultation juridique sont de fournir aux clients des avis et des conseils juridiques précis
     des conseils juridiques précis, de les aider à comprendre leurs droits et obligations juridiques et de les aider à prendre des décisions éclairées sur des questions juridiques. Une consultation juridique peut également aider les clients à
