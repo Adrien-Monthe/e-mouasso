@@ -17,18 +17,12 @@ return [
     'representation_and_assistance_in_civil_courts' => 'Représentation et Assistance des Juridictions',
     'contact_now' => 'Contactez nous',
     'da' => 'Les objectifs de la consultation juridique sont de fournir aux clients des avis et des conseils juridiques précis
-    des conseils juridiques précis, de les aider à comprendre leurs droits et obligations juridiques et de les aider à prendre des décisions éclairées sur des questions juridiques,
-    et de les aider à prendre des décisions éclairées sur des questions juridiques. Une consultation juridique peut également aider les clients à
-    à identifier les risques juridiques potentiels et à élaborer des stratégies pour les atténuer. En outre, la consultation juridique peut aider les clients à évaluer la solidité de leur dossier,
-    En outre, une consultation juridique peut aider les clients à évaluer la solidité de leur position juridique et à déterminer le meilleur plan d’action pour atteindre leurs objectifs.
-    d’action pour atteindre leurs objectifs.',
+    des conseils juridiques précis, de les aider à comprendre leurs droits et obligations juridiques et de les aider à prendre des décisions éclairées sur des questions juridiques. Une consultation juridique peut également aider les clients à
+    à identifier les risques juridiques potentiels et à élaborer des stratégies pour les atténuer. En outre, la consultation juridique peut aider les clients à évaluer la solidité de leur dossier, de leur position juridique et à déterminer le meilleur plan d’action pour atteindre leurs objectifs.',
     'dar' => 'En s’adressant à EM & Partners Law Firm , les clients peuvent
     s’assurer que leurs questions juridiques sont traitées de manière professionnelle et efficace,
     et qu’ils ont accès aux ressources et à l’expertise nécessaires pour obtenir un résultat favorable.',
-    'dan' => 'Globalement, l’objectif de la consultation juridique est de fournir aux clients les informations et les conseils dont ils ont besoin pour prendre des décisions éclairées concernant leurs affaires juridiques et pour atteindre leurs objectifs.
-    informations et les conseils dont ils ont besoin pour prendre des décisions éclairées sur leurs questions juridiques et obtenir le meilleur résultat possible.
-    le meilleur résultat possible. Aider les clients à naviguer dans le système juridique complexe et veiller à ce que leurs droits soient protégés.
-    leurs droits légaux soient protégés.',
+    'dan' => "En résumé, les objectifs d'une consultation juridique sont de fournir des conseils professionnels, d'évaluer la situation juridique, de clarifier les droits et les obligations, de résoudre des problèmes juridiques et de prévenir les litiges futurs. Il est important de communiquer clairement vos besoins et attentes lors de la consultation pour obtenir les meilleurs conseils possibles.",
     'business_solution' => 'Solution d’affaires',
     'das' => 'EM & Partners Law Firm peut aider les entreprises à identifier les risques juridiques potentiels et à élaborer des stratégies pour les atténuer.',
     'market_rules' => 'Les règles du marché',

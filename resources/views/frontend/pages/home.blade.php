@@ -78,7 +78,7 @@
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
-                        <h2 class="main-slider__title">Audit Juridiques<br>
+                        <h2 class="main-slider__title">Audit Juridique<br>
                              & Social</h2>
                         <div class="main-slider__btn-box">
                             <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn"> @lang('general.read-more')</a>
@@ -110,7 +110,7 @@
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
-                        <h2 class="main-slider__title">Consultation <br>
+                        <h2 class="main-slider__title">Consultations <br>
                             Juridiques</h2>
                         <div class="main-slider__btn-box">
                             <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn"> @lang('general.read-more')</a>
@@ -383,20 +383,19 @@
                         <div class="grow-business__left">
                             <div class="section-title text-left">
                                 <div class="section-title__tagline-box">
-                                    <span class="section-title__tagline">Human resources</span>
+                                    <span class="section-title__tagline">@lang('home.human_resources')</span>
                                 </div>
-                                <h2 class="section-title__title">Let’s Grow Business
-                                    with a New <span>Strategies</span></h2>
+                                <h2 class="section-title__title">@lang('home.let’s_grow_business_with_a_new')
+                                    <span>@lang('home.strategies')</span></h2>
                             </div>
-                            <p class="grow-business__text">Duis aute irure dolor in reprehenderit in voluptate velit
-                                esse cillum dolore eu convenient scheduling, account nulla pariatur.</p>
+                            <p class="grow-business__text" style="text-align: justify">@lang('home.ba')</p>
                             <ul class="grow-business__points list-unstyled">
                                 <li>
                                     <div class="icon">
                                         <span class="fa fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Lorem ipsum is not simply random text</p>
+                                        <p>@lang('home.legal_advice_and_consultations')</p>
                                     </div>
                                 </li>
                                 <li>
@@ -404,7 +403,7 @@
                                         <span class="fa fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Making this the first true generator on the Internet</p>
+                                        <p>@lang('home.public_finance_litigation')</p>
                                     </div>
                                 </li>
                                 <li>
@@ -412,22 +411,22 @@
                                         <span class="fa fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Various versions have evolved over the years</p>
+                                        <p>@lang('home.participation_in_negotiations/transactions')</p>
                                     </div>
                                 </li>
                             </ul>
                             <div class="grow-business__progress">
-                                <h4 class="grow-business__progress-title">Consulting</h4>
+                                <h4 class="grow-business__progress-title">@lang('home.consulting')</h4>
                                 <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="86%">
-                                        <div class="count-text">86%</div>
+                                    <div class="bar-inner count-bar" data-percent="100%">
+                                        <div class="count-text">100%</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <div class="grow-business__right">
+                        <div class="grow-business__right" style="padding: 100px 50px 110px;">
                             <div class="grow-business__shape-1 float-bob-x">
                                 <img src="/frontend/images/shapes/grow-business-shape-1.png" alt="">
                             </div>
@@ -436,21 +435,18 @@
                                     <div class="grow-business__right-points-icon">
                                         <span class="icon-experience"></span>
                                     </div>
-                                    <h3 class="grow-business__right-points-title">Benefits by Investing
-                                        <br> your Money</h3>
-                                    <p class="grow-business__right-points-text">Sed non odio non elit porttit sit
-                                        tincidunt.
-                                        <br> Donec fermentum, elit sit amet</p>
+                                    <h3 class="grow-business__right-points-title">@lang('home.why_us?')</h3>
+                                    <p class="grow-business__right-points-text" style="text-align: justify">@lang('home.bar')
+                                        <br>@lang('home.consulting_work_that_meets_expectations.')</p>
                                 </li>
                                 <li>
                                     <div class="grow-business__right-points-icon">
                                         <span class="icon-consumer-behavior"></span>
                                     </div>
-                                    <h3 class="grow-business__right-points-title">The most Time-Consuming
-                                        <br> Components</h3>
-                                    <p class="grow-business__right-points-text">Sed non odio non elit porttit sit
-                                        tincidunt.
-                                        <br> Donec fermentum, elit sit amet</p>
+                                    <h3 class="grow-business__right-points-title">@lang('home.the_importance_of_having_a')
+                                        <br> @lang('home.lawyer')</h3>
+                                    <p class="grow-business__right-points-text">@lang('home.we_represent_you_in_court_on_any_case.')
+                                        <br>@lang('home.ban')</p>
                                 </li>
                             </ul>
                         </div>
