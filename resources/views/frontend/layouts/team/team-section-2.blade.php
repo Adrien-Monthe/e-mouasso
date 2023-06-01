@@ -28,7 +28,7 @@
                     <div class="team-one__single">
                         <div class="team-one__img-box">
                             <div class="team-one__img">
-                                <img src="/frontend/images/team/team3.jpg" alt="">
+                                <img src="/frontend/images/team/team6.png" alt="">
                             </div>
                             <div class="team-one__hover-content">
                                 <div class="team-one__hover-arrow-box">
@@ -51,8 +51,8 @@
                                 <a href="team-details.html" class="team-one__arrow"><span
                                         class="fas fa-share-alt"></span></a>
                             </div>
-                            <h3 class="team-one__title"><a href="team-details.html">Nama Yanick</a></h3>
-                            <p class="team-one__sub-title">Juriste</p>
+                            <h3 class="team-one__title"><a href="team-details.html">Me MBONGUE EBOA</a></h3>
+                            <p class="team-one__sub-title">Avocat</p>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                     <div class="team-one__single">
                         <div class="team-one__img-box">
                             <div class="team-one__img">
-                                <img src="/frontend/images/team/team1.jpg" alt="">
+                                <img src="/frontend/images/team/team7.png" alt="">
                             </div>
                             <div class="team-one__hover-content">
                                 <div class="team-one__hover-arrow-box">
@@ -73,9 +73,9 @@
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
-                                <h3 class="team-one__hover-title"><a href="team-details.html">Edmond Mouasso</a>
+                                <h3 class="team-one__hover-title"><a href="team-details.html">Me AMOUGOU Remind</a>
                                 </h3>
-                                <p class="team-one__hover-sub-title">Fondateur & Consultant</p>
+                                <p class="team-one__hover-sub-title">Avocat</p>
                                 <p class="team-one__hover-text">@lang('home.bah')
                                 </p>
                             </div>
