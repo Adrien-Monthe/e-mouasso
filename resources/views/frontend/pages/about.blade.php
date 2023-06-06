@@ -20,7 +20,7 @@
 
     <!--Page Header Start-->
     <section class="page-header">
-        <div class="page-header__bg" style="background:url('/frontend/images/backgrounds/page-header-bg.jpg');">
+        <div class="page-header__bg" style="background:url('/frontend/images/backgrounds/project-two-bg.jpg');">
         </div>
         <div class="page-header__shape-2 float-bob-x">
             <img src="{{url('/frontend/images/shapes/page-header-shape-2.png')}}" alt="">
