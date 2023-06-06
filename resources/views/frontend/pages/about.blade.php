@@ -20,16 +20,16 @@
 
     <!--Page Header Start-->
     <section class="page-header">
-        <div class="page-header__bg" style="background-image: {{url('frontend/images/backgrounds/page-header-bg.jpg')}};">
+        <div class="page-header__bg" style="background-image: {{url('/frontend/images/backgrounds/page-header-bg.jpg')}};">
         </div>
         <div class="page-header__shape-2 float-bob-x">
-            <img src="{{url('frontend/images/shapes/page-header-shape-2.png')}}" alt="">
+            <img src="{{url('/frontend/images/shapes/page-header-shape-2.png')}}" alt="">
         </div>
         <div class="page-header__shape-1 float-bob-y">
-            <img src="{{url('frontend/images/shapes/page-header-shape-1.png')}}" alt="">
+            <img src="{{url('/frontend/images/shapes/page-header-shape-1.png')}}" alt="">
         </div>
         <div class="page-header__shape-3 float-bob-x">
-            <img src="{{url('frontend/images/shapes/page-header-shape-3.png')}}" alt="">
+            <img src="{{url('/frontend/images/shapes/page-header-shape-3.png')}}" alt="">
         </div>
         <div class="container">
             <div class="page-header__inner">
@@ -54,10 +54,10 @@
                     <div class="about-four__left">
                         <div class="about-four__img-box">
                             <div class="about-four__img">
-                                <img src="{{url('frontend/images/resources/12.jpg')}}" alt="">
+                                <img src="{{url('/frontend/images/resources/12.jpg')}}" alt="">
                             </div>
                             <div class="about-four__img-two">
-                                <img src="{{url('frontend/images/resources/11.jpg')}}" alt="">
+                                <img src="{{url('/frontend/images/resources/11.jpg')}}" alt="">
                             </div>
                             <div class="about-four__shape-1 img-bounce"></div>
                         </div>
@@ -99,9 +99,9 @@
                             </li>
                         </ul>
                         <div class="about-four__btn-box">
-                            <a href="about.html" class="thm-btn about-four__btn">@lang('about.discover_more')</a>
+                            <a href="#" class="thm-btn about-four__btn">@lang('about.discover_more')</a>
                             <div class="about-four__shape-2 float-bob-x">
-                                <img src="{{url('frontend/images/shapes/about-four-shape-1.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/about-four-shape-1.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
     <!--Expectation One Start-->
     <section class="expectation-one">
         <div class="expectation-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-             style="background-image: {{url('frontend/images/backgrounds/expectation-one-bg.jpg')}};"></div>
+             style="background-image: {{url('/frontend/images/backgrounds/expectation-one-bg.jpg')}};"></div>
         <div class="section-title text-center">
             <div class="section-title__tagline-box">
                 <span class="section-title__tagline">@lang('about.recent_work_lists')</span>
@@ -129,21 +129,21 @@
                         <div class="icon">
                             <span class="icon-strategy"></span>
                         </div>
-                        <h3 class="expectation-one__title"><a href="about.html">@lang('about.saving_and_strategy')</a></h3>
+                        <h3 class="expectation-one__title"><a href="#">@lang('about.saving_and_strategy')</a></h3>
                         <p class="expectation-one__text" style="text-align: justify">@lang('about.far')</p>
                     </li>
                     <li>
                         <div class="icon">
                             <span class="icon-conversation"></span>
                         </div>
-                        <h3 class="expectation-one__title"><a href="about.html">@lang('about.hr_business_consulting')</a></h3>
+                        <h3 class="expectation-one__title"><a href="#">@lang('about.hr_business_consulting')</a></h3>
                         <p class="expectation-one__text" style="text-align: justify">@lang('about.fan')</p>
                     </li>
                     <li>
                         <div class="icon">
                             <span class="icon-planning"></span>
                         </div>
-                        <h3 class="expectation-one__title"><a href="about.html">@lang('about.business_planning')</a></h3>
+                        <h3 class="expectation-one__title"><a href="#">@lang('about.business_planning')</a></h3>
                         <p class="expectation-one__text" style="text-align: justify">@lang('about.fas')</p>
                     </li>
                 </ul>
@@ -158,7 +158,7 @@
     <section class="testimonial-two about-page-testimonial">
         <div class="testimonial-two__bg-box">
             <div class="testimonial-two__bg"
-                 style="background-image: {{url('frontend/images/backgrounds/testimonial-two-bg.png')}};"></div>
+                 style="background-image: {{url('/frontend/images/backgrounds/testimonial-two-bg.png')}};"></div>
         </div>
         <div class="container">
             <div class="section-title text-center">
@@ -196,23 +196,23 @@
                     <div class="item">
                         <div class="testimonial-two__single">
                             <div class="testimonial-two__shape-1">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-2">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-3">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-4">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__client-img-and-info">
                                 <div class="testimonial-two__client-img">
-                                    <img src="{{url('frontend/images/testimonial/testimonial-2-1.jpg')}}" alt="">
+                                    <img src="{{url('/frontend/images/testimonial/testimonial-2-1.jpg')}}" alt="">
                                 </div>
                                 <div class="testimonial-two__client-info">
-                                    <h3><a href="testimonials.html">Mike Hardson</a></h3>
+                                    <h3><a href="#">Mike Hardson</a></h3>
                                     <p>CO Founder</p>
                                 </div>
                             </div>
@@ -226,23 +226,23 @@
                     <div class="item">
                         <div class="testimonial-two__single">
                             <div class="testimonial-two__shape-1">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-2">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-3">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-4">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__client-img-and-info">
                                 <div class="testimonial-two__client-img">
-                                    <img src="{{url('frontend/images/testimonial/testimonial-2-2.jpg')}}" alt="">
+                                    <img src="{{url('/frontend/images/testimonial/testimonial-2-2.jpg')}}" alt="">
                                 </div>
                                 <div class="testimonial-two__client-info">
-                                    <h3><a href="testimonials.html">Sarah Albert</a></h3>
+                                    <h3><a href="#">Sarah Albert</a></h3>
                                     <p>CO Founder</p>
                                 </div>
                             </div>
@@ -256,23 +256,23 @@
                     <div class="item">
                         <div class="testimonial-two__single">
                             <div class="testimonial-two__shape-1">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-2">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-3">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-4">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__client-img-and-info">
                                 <div class="testimonial-two__client-img">
-                                    <img src="{{url('frontend/images/testimonial/testimonial-2-3.jpg')}}" alt="">
+                                    <img src="{{url('/frontend/images/testimonial/testimonial-2-3.jpg')}}" alt="">
                                 </div>
                                 <div class="testimonial-two__client-info">
-                                    <h3><a href="testimonials.html">Christine Eve</a></h3>
+                                    <h3><a href="#">Christine Eve</a></h3>
                                     <p>CO Founder</p>
                                 </div>
                             </div>
@@ -286,23 +286,23 @@
                     <div class="item">
                         <div class="testimonial-two__single">
                             <div class="testimonial-two__shape-1">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-1.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-2">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-2.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-3">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-3.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__shape-4">
-                                <img src="{{url('frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
+                                <img src="{{url('/frontend/images/shapes/testimonial-two-shape-4.png')}}" alt="">
                             </div>
                             <div class="testimonial-two__client-img-and-info">
                                 <div class="testimonial-two__client-img">
-                                    <img src="{{url('frontend/images/testimonial/testimonial-2-4.jpg')}}" alt="">
+                                    <img src="{{url('/frontend/images/testimonial/testimonial-2-4.jpg')}}" alt="">
                                 </div>
                                 <div class="testimonial-two__client-info">
-                                    <h3><a href="testimonials.html">Michale Robert</a></h3>
+                                    <h3><a href="#">Michale Robert</a></h3>
                                     <p>CO Founder</p>
                                 </div>
                             </div>
