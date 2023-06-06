@@ -3,6 +3,9 @@
 return [
 
     'welcome-to-cabinet' => 'Welcome to our agency',
+    'assistance-administrative' => 'Administrative & legal<br> assistance',
+    'legal_and_social_audit' => 'Legal & social<br> audit',
+    "consultation-juridique"=>"Legal consultations",
     'welcome-to-cabinet-title' => 'Delivering the Best Consulting <span>Experience</span>',
     'nous-sommes' => "We are a law firm that aims to provide our clients with high quality legal services in a very complex legal and judicial environment.",
     'droit-affaires' => 'Business Law',

@@ -46,8 +46,7 @@
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
-                        <h2 class="main-slider__title">Assitance Administrative <br>
-                            & Juridique</h2>
+                        <h2 class="main-slider__title">@lang('home.assistance-administrative')</h2>
                         <div class="main-slider__btn-box">
                             <a href=" {{ route ('about', app()->getLocale()) }}" class="main-slider__btn thm-btn">@lang('general.read-more')</a>
                         </div>
@@ -78,8 +77,7 @@
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
-                        <h2 class="main-slider__title">Audit Juridique<br>
-                             & Social</h2>
+                        <h2 class="main-slider__title">@lang('home.legal_and_social_audit')</h2>
                         <div class="main-slider__btn-box">
                             <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn"> @lang('general.read-more')</a>
                         </div>
@@ -110,8 +108,7 @@
                 <div class="container">
                     <div class="main-slider__content">
                         <p class="main-slider__sub-title">E. Mouasso & Partners Law Firm</p>
-                        <h2 class="main-slider__title">Consultations <br>
-                            Juridiques</h2>
+                        <h2 class="main-slider__title">@lang('home.consultation-juridique')</h2>
                         <div class="main-slider__btn-box">
                             <a href=" {{ route ('about') }}" class="main-slider__btn thm-btn"> @lang('general.read-more')</a>
                         </div>
