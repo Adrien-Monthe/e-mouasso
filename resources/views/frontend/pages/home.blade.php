@@ -200,7 +200,7 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Droit de l'economie numérique </p>
+                                            <p>Droit de l'Economie Numérique </p>
                                         </div>
                                     </li>
                                 </ul>
@@ -242,7 +242,7 @@
                                             <span class="fa fa-check"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Droit pénale </p>
+                                            <p>Droit pénal </p>
                                         </div>
                                     </li>
                                     <li>
