@@ -55,9 +55,8 @@ return [
     'bag' => 'A lawyer’s time and advice are his stock in trade.',
     'bah' => 'The law is an imperfect profession in which success can rarely be achieved without some sacrifice of principle',
     'fun_facts' => 'Fun facts',
-    'consultancy_funfacts' => 'Consultancy Funfacts',
-    'in_great' => 'in Great',
-    'numbers' => 'Numbers',
+    'consultancy_funfacts' => 'Consultancy facts <br> about the <span>firm</span>',
+
     'bav' => 'Consultancy is a booming industry that has experienced tremendous',
     'projects_completed' => 'Projects Completed',
     'satisfied_customers' => 'Satisfied Customers',

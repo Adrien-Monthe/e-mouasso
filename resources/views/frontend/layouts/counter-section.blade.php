@@ -10,14 +10,11 @@
                     <div class="counter-one__left">
                         <div class="section-title text-left">
                             <div class="section-title__tagline-box">
-                                <span class="section-title__tagline">fun facts</span>
+                                <span class="section-title__tagline">@lang('home.fun_facts')</span>
                             </div>
-                            <h2 class="section-title__title">Consultancy Funfacts
-                                <br> in Great <span>Numbers</span></h2>
+                            <h2 class="section-title__title">@lang('home.consultancy_funfacts')</h2>
                         </div>
-                        <p class="counter-one__text">Leverage agile frameworks to provide a robust synopsis for
-                            high level overviews. Iterative approaches to corporate strategy data foster to
-                            collaborative thinking.</p>
+                        <p class="counter-one__text">@lang('home.bav')</p>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7">
@@ -30,7 +27,7 @@
                                 <div class="counter-one__count count-box">
                                     <h3 class="count-text" data-stop="886" data-speed="1500">00</h3>
                                 </div>
-                                <p class="counter-one__text">Projects Completed</p>
+                                <p class="counter-one__text">@lang('home.projects_completed')</p>
                             </li>
                             <li>
                                 <div class="counter-one__icon">
@@ -39,16 +36,16 @@
                                 <div class="counter-one__count count-box">
                                     <h3 class="count-text" data-stop="600" data-speed="1500">00</h3>
                                 </div>
-                                <p class="counter-one__text">Satisfied Customers</p>
+                                <p class="counter-one__text">@lang('home.satisfied_customers')</p>
                             </li>
                             <li>
                                 <div class="counter-one__icon">
                                     <span class="icon-consulting"></span>
                                 </div>
                                 <div class="counter-one__count count-box">
-                                    <h3 class="count-text" data-stop="960" data-speed="1500">00</h3>
+                                    <h3 class="count-text" data-stop="08" data-speed="1500">00</h3>
                                 </div>
-                                <p class="counter-one__text">Expert Consultants</p>
+                                <p class="counter-one__text">@lang('home.expert_consultants')</p>
                             </li>
                         </ul>
                     </div>

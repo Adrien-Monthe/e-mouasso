@@ -55,11 +55,10 @@ return [
     'bag' => 'Le temps et les conseils d’un avocat sont son fonds de commerce.',
     'bah' => 'Le droit est une profession imparfaite dans laquelle il est rare que l’on puisse réussir sans sacrifier certains principes',
     'fun_facts' => 'Faits marquants',
-    'consultancy_funfacts' => 'sur le conseil',
-    'in_great' => 'en grand',
-    'numbers' => 'nombre',
+    'consultancy_funfacts' => 'Quelques statistiques <br> sur le <span>cabinet</span>',
     'bav' => 'Le conseil est un secteur en plein essor qui a connu un essor considérable.',
     'projects_completed' => 'Projets réalisés',
     'satisfied_customers' => 'Clients satisfaits',
-    'expert_consultants' => 'Experts-conseils',
+    'expert_consultants' => 'Avocats experts',
+
 ];
