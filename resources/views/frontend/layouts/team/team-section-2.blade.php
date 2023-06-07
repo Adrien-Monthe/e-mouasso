@@ -85,7 +85,7 @@
                                 <a href="team-details.html" class="team-one__arrow"><span
                                         class="fas fa-share-alt"></span></a>
                             </div>
-                            <h3 class="team-one__title"><a href="team-details.html">Edmond Mouasso</a></h3>
+                            <h3 class="team-one__title"><a href="team-details.html">Me AMOUGOU Remind</a></h3>
                             <p class="team-one__sub-title">Fondateur & Consultant</p>
                         </div>
                     </div>
