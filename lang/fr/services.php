@@ -9,7 +9,7 @@ return [
     'gos' => 'L’assistance Juridique et Administrative inclut l’examen et la rédaction de contrats, la négociation avec les autorités locales et l’obtention de permis et autorisations diverses.',
     'got' => 'Les services d’audit juridique et social peuvent être particulièrement utiles lors d’opérations de fusion-acquisition, de financement ou de vente d’entreprise.',
     'gon' => 'Un avis légal est un document écrit dans lequel un avocat donne son avis sur une question juridique spécifique, tels que les droits et obligations contractuels.',
-    'gox' => 'Les services d’assistance devant les juridictions civilesù inclure la recherche de jurisprudence pour étayer les arguments présentés devant le tribunal.',
+    'gox' => 'Les services d’assistance devant les juridictions inclut la recherche de jurisprudence pour étayer les arguments présentés devant le tribunal.',
     'debt_collection_&_recovery' => 'Recouvrement de Créances',
     'legal_and_administrative_support' => 'Assistance Juridique et Administrative',
     'legal_and_social_audit' => 'Audit juridique et social',
