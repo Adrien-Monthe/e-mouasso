@@ -6,7 +6,7 @@ return [
     'read_more' => 'En savoir plus',
     'go' => 'EM Partners & Law Firm vous propose une consultation juridique définie par la jurisprudence comme "un avis concourant par les éléments qu’il apporte à la prise de décision du bénéficiaire".',
     'gor' => 'EM partners vous accompagne avec l’analyse des contrats et des accords pour déterminer les droits du créancier, la communication avec le débiteur pour tenter de résoudre à l’amiable le différend ou de manière contentieuse.',
-    'gos' => 'L’assistance Juridique et Administrative inclure l’examen et la rédaction de contrats, la négociation avec les autorités locales et l’obtention de permis et d’autorisations.',
+    'gos' => 'L’assistance Juridique et Administrative inclut l’examen et la rédaction de contrats, la négociation avec les autorités locales et l’obtention de permis et autorisations diverses.',
     'got' => 'Les services d’audit juridique et social peuvent être particulièrement utiles lors d’opérations de fusion-acquisition, de financement ou de vente d’entreprise.',
     'gon' => 'Un avis légal est un document écrit dans lequel un avocat donne son avis sur une question juridique spécifique, tels que les droits et obligations contractuels.',
     'gox' => 'Les services d’assistance devant les juridictions civilesù inclure la recherche de jurisprudence pour étayer les arguments présentés devant le tribunal.',
