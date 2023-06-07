@@ -28,7 +28,7 @@ return [
 
     'human_resources' => 'Ressources humaines',
     'let’s_grow_business_with_a_new' => 'Développons nos activités grâce à une nouvelle',
-    'strategies' => 'Stratégies',
+    'strategies' => 'Stratégie',
     'ba' => 'Avec E.mouasso & Partners, une gestion financière efficace est essentielle
     pour assurer la durabilité financière de votre entreprise. Cela peut inclure la budgétisation, la gestion des flux de trésorerie
      et l’investissement judicieux des bénéfices.',

@@ -195,6 +195,14 @@
                                             <p>@lang('home.contentieux-cnps') </p>
                                         </div>
                                     </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Droit de l'economie numérique </p>
+                                        </div>
+                                    </li>
                                 </ul>
                                 <ul class="about-one__points-list list-unstyled">
                                     <li>
@@ -227,6 +235,22 @@
                                         </div>
                                         <div class="text">
                                             <p>@lang('home.contentieux-fiscal') </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Droit pénale </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-check"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Blockchain & Cryptoactif </p>
                                         </div>
                                     </li>
 
