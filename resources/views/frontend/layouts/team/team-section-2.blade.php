@@ -39,9 +39,9 @@
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
-                                <h3 class="team-one__hover-title"><a href="team-details.html">Nama Yanick</a>
+                                <h3 class="team-one__hover-title"><a href="team-details.html">Me MBONGUE EBOA</a>
                                 </h3>
-                                <p class="team-one__hover-sub-title">Juriste</p>
+                                <p class="team-one__hover-sub-title">Juriste Collaborateur</p>
                                 <p class="team-one__hover-text">@lang('home.baf')
                                 </p>
                             </div>
@@ -52,7 +52,7 @@
                                         class="fas fa-share-alt"></span></a>
                             </div>
                             <h3 class="team-one__title"><a href="team-details.html">Me MBONGUE EBOA</a></h3>
-                            <p class="team-one__sub-title">Avocat</p>
+                            <p class="team-one__sub-title">Juriste Collaborateur</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                                 </div>
                                 <h3 class="team-one__hover-title"><a href="team-details.html">Me AMOUGOU Remind</a>
                                 </h3>
-                                <p class="team-one__hover-sub-title">Avocat</p>
+                                <p class="team-one__hover-sub-title">Juriste Collaborateur</p>
                                 <p class="team-one__hover-text">@lang('home.bah')
                                 </p>
                             </div>
@@ -86,7 +86,7 @@
                                         class="fas fa-share-alt"></span></a>
                             </div>
                             <h3 class="team-one__title"><a href="team-details.html">Me AMOUGOU Remind</a></h3>
-                            <p class="team-one__sub-title">Fondateur & Consultant</p>
+                            <p class="team-one__sub-title">Juriste Collaborateur</p>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                                 </div>
                                 <h3 class="team-one__hover-title"><a href="team-details.html">Francis Eboute</a>
                                 </h3>
-                                <p class="team-one__hover-sub-title">Consultant</p>
+                                <p class="team-one__hover-sub-title">Juriste Collaborateur</p>
                                 <p class="team-one__hover-text">@lang('home.bag')
                                 </p>
                             </div>
