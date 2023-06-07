@@ -21,7 +21,7 @@
 
         <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header__bg" style="background-image: {{url('frontend/images/backgrounds/page-header-bg.jpg')}};">
+            <div class="page-header__bg" style="background-image: url('/frontend/images/backgrounds/services-1-4.jpg');">
             </div>
             <div class="page-header__shape-2 float-bob-x">
                 <img src="{{url('frontend/images/shapes/page-header-shape-2.png')}}" alt="">
@@ -39,7 +39,7 @@
                         <ul class="thm-breadcrumb list-unstyled">
                             <li><a href="{{ route('home') }}">@lang('menu_home')</a></li>
                             <li><span>/</span></li>
-                            <li><a href="{{ route('services') }}"">Services</a></li>
+                            <li><a href="{{ route('services') }}">Services</a></li>
                             <li><span>/</span></li>
                             <li>@lang('services.legal_consultations')</li>
                         </ul>

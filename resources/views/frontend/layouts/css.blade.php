@@ -24,3 +24,9 @@
 <link rel="stylesheet" href="/frontend/css/sinace-responsive.css" />
 
 {{--@vite('resources/css/app.css')--}}
+
+<style>
+    p {
+        text-align: justify;
+    }
+</style>
