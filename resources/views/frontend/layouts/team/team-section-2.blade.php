@@ -107,7 +107,7 @@
                                         <li><a href="https://instagram.com/fhelespirituojuriste?igshid=NTc4MTIwNjQ2YQ=="><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
-                                <h3 class="team-one__hover-title"><a href="team-details.html">Francis Eboute</a>
+                                <h3 class="team-one__hover-title"><a href="#">Francis Eboute</a>
                                 </h3>
                                 <p class="team-one__hover-sub-title">Juriste Collaborateur</p>
                                 <p class="team-one__hover-text">@lang('home.bag')
@@ -116,11 +116,11 @@
                         </div>
                         <div class="team-one__content">
                             <div class="team-one__arrow-box">
-                                <a href="team-details.html" class="team-one__arrow"><span
+                                <a href="#" class="team-one__arrow"><span
                                         class="fas fa-share-alt"></span></a>
                             </div>
-                            <h3 class="team-one__title"><a href="team-details.html">Francis Eboute</a></h3>
-                            <p class="team-one__sub-title">Consultant</p>
+                            <h3 class="team-one__title"><a href="#">Francis Eboute</a></h3>
+                            <p class="team-one__sub-title">Juriste Collaborateur</p>
                         </div>
                     </div>
                 </div>

@@ -42,10 +42,10 @@
                         </div>
                         <div class="project-one__content">
                             <p>Finance</p>
-                            <h3><a href="portfolio-details.html">International business
+                            <h3><a href="#">International business
                                     <br> development</a></h3>
                             <div class="project-one__arrow">
-                                <a href="portfolio-details.html"><span class="icon-right-arrow"></span></a>
+                                <a href="#"><span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -61,10 +61,10 @@
                         </div>
                         <div class="project-one__content">
                             <p>Finance</p>
-                            <h3><a href="portfolio-details.html">International business
+                            <h3><a href="#">International business
                                     <br> development</a></h3>
                             <div class="project-one__arrow">
-                                <a href="portfolio-details.html"><span class="icon-right-arrow"></span></a>
+                                <a href="#"><span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -80,10 +80,10 @@
                         </div>
                         <div class="project-one__content">
                             <p>Finance</p>
-                            <h3><a href="portfolio-details.html">International business
+                            <h3><a href="#">International business
                                     <br> development</a></h3>
                             <div class="project-one__arrow">
-                                <a href="portfolio-details.html"><span class="icon-right-arrow"></span></a>
+                                <a href="#"><span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -99,10 +99,10 @@
                         </div>
                         <div class="project-one__content">
                             <p>Finance</p>
-                            <h3><a href="portfolio-details.html">International business
+                            <h3><a href="#">International business
                                     <br> development</a></h3>
                             <div class="project-one__arrow">
-                                <a href="portfolio-details.html"><span class="icon-right-arrow"></span></a>
+                                <a href="#"><span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -118,10 +118,10 @@
                         </div>
                         <div class="project-one__content">
                             <p>Finance</p>
-                            <h3><a href="portfolio-details.html">International business
+                            <h3><a href="#">International business
                                     <br> development</a></h3>
                             <div class="project-one__arrow">
-                                <a href="portfolio-details.html"><span class="icon-right-arrow"></span></a>
+                                <a href="#"><span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>
@@ -137,10 +137,10 @@
                         </div>
                         <div class="project-one__content">
                             <p>Finance</p>
-                            <h3><a href="portfolio-details.html">International business
+                            <h3><a href="#">International business
                                     <br> development</a></h3>
                             <div class="project-one__arrow">
-                                <a href="portfolio-details.html"><span class="icon-right-arrow"></span></a>
+                                <a href="#"><span class="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>

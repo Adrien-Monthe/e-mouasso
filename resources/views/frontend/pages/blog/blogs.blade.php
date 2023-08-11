@@ -36,7 +36,7 @@
                 <h2>@lang('blog.page-title')</h2>
                 <div class="thm-breadcrumb__inner">
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">@lang('navigation.nav-home')</a></li>
+                        <li><a href="#">@lang('navigation.nav-home')</a></li>
                         <li><span>/</span></li>
                         <li>@lang('blog.page-title')</li>
                     </ul>
